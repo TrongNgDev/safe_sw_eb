@@ -116,3 +116,5 @@
 3156	3638	1742311347899068569	/home/tdn/safe_sw_eb/esp32c6/esp32c6_wamr_interp_fast_Rust/build/bootloader/.bin_timestamp	ff3fe17e1b0d5686
 3638	3756	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	9da9bf89a7f7014e
 3638	3756	0	/home/tdn/safe_sw_eb/esp32c6/esp32c6_wamr_interp_fast_Rust/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	9da9bf89a7f7014e
+11	69	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	9da9bf89a7f7014e
+11	69	0	/home/tdn/safe_sw_eb/esp32c6/esp32c6_wamr_interp_fast_Rust/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	9da9bf89a7f7014e
