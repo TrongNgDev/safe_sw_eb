@@ -6,11 +6,11 @@
 /applications/lua/*.h
 
 # ESP-IDF
-*/.devcontainer/
-*/managed_components/
-*/dependencies.lock
-*/sdkconfig.old
-*/sdkconfig.ci
+/esp32c6/**/.devcontainer/
+/esp32c6/**/managed_components/
+/esp32c6/**/dependencies.lock
+/esp32c6/**/sdkconfig.old
+/esp32c6/**/sdkconfig.ci
 
 # Renesas
 */trash/
