@@ -100,5 +100,6 @@ int main(int argc, char **argv)
     }
 
     puts("process_rgb_to_gray success!");
+    
     return 0;
 }

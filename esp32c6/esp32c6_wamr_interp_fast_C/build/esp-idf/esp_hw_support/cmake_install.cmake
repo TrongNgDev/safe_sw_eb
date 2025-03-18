@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/tdn/safe-sw-eb/esp32c6_wamr_interp_fast_C/build/esp-idf/esp_hw_support/port/esp32c6/cmake_install.cmake")
+  include("/home/tdn/safe_sw_eb/esp32c6/esp32c6_wamr_interp_fast_C/build/esp-idf/esp_hw_support/port/esp32c6/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/tdn/safe-sw-eb/esp32c6_wamr_interp_fast_C/build/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
+  include("/home/tdn/safe_sw_eb/esp32c6/esp32c6_wamr_interp_fast_C/build/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
 endif()
 

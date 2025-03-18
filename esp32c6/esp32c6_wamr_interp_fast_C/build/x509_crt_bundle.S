@@ -1,4 +1,4 @@
-/* * Data converted from /home/tdn/safe-sw-eb/esp32c6_wamr_interp_fast_C/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/tdn/safe_sw_eb/esp32c6/esp32c6_wamr_interp_fast_C/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

@@ -14,7 +14,7 @@
 #include "bh_platform.h"
 
 // Wasm application
-#include "../../applications/image_app_rust/image_app_wasm.h"
+#include "../../../applications/image_app_rust/image_app_wasm.h"
 
 #define IWASM_MAIN_STACK_SIZE 5120
 #define CPU_CYCLE_ENABLE 1

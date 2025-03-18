@@ -8,7 +8,7 @@ dependencies:
     - name: idf
       version: '>=4.4'
     source:
-      path: /home/tdn/safe-sw-eb/esp32c6_wamr_interp_classic_Rust/wasm-micro-runtime
+      path: /home/tdn/safe_sw_eb/esp32c6/esp32c6_wamr_interp_classic_Rust/wasm-micro-runtime
       type: local
     targets:
     - esp32

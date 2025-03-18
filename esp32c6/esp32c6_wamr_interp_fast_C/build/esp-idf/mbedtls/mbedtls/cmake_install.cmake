@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/tdn/safe-sw-eb/esp32c6_wamr_interp_fast_C/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
-  include("/home/tdn/safe-sw-eb/esp32c6_wamr_interp_fast_C/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
-  include("/home/tdn/safe-sw-eb/esp32c6_wamr_interp_fast_C/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
-  include("/home/tdn/safe-sw-eb/esp32c6_wamr_interp_fast_C/build/esp-idf/mbedtls/mbedtls/pkgconfig/cmake_install.cmake")
+  include("/home/tdn/safe_sw_eb/esp32c6/esp32c6_wamr_interp_fast_C/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
+  include("/home/tdn/safe_sw_eb/esp32c6/esp32c6_wamr_interp_fast_C/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
+  include("/home/tdn/safe_sw_eb/esp32c6/esp32c6_wamr_interp_fast_C/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
+  include("/home/tdn/safe_sw_eb/esp32c6/esp32c6_wamr_interp_fast_C/build/esp-idf/mbedtls/mbedtls/pkgconfig/cmake_install.cmake")
 
 endif()
 
