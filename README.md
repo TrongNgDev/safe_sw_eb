@@ -1,2 +1,2 @@
-# safe_sw_eb
-Memory-safe sofware for embedded system evaluation
+# safe-sw-eb
+Evaluate memory-safe software for embedded systems

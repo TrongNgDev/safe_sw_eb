@@ -1,52 +1,22 @@
-# Prerequisites
-*.d
+# General
+/.vscode
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# applications
+/applications/**/target/
+/applications/lua/*.h
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# ESP-IDF
+*/.devcontainer/
+*/managed_components/
+*/dependencies.lock
+*/sdkconfig.old
+*/sdkconfig.ci
 
-# Precompiled Headers
-*.gch
-*.pch
+# Renesas
+*/trash/
+*/JLinkLog.log
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Tools
+/tools/wasm-micro-runtime/*
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Test

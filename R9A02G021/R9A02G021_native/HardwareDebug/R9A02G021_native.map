@@ -1,0 +1,1679 @@
+     VMA      LMA     Size Align Out     In      Symbol
+       0        0       94     2 .vec
+       0        0       94     2         ./src/smc_gen/r_bsp/mcu/all/start.o:(.text)
+       0        0        0     1                 .L0 
+       0        0        0     1                 .Ltmp0
+       0        0        0     1                 $x
+       0        0        0     1                 .L0 
+       0        0       94     1                 _PowerON_Reset
+       4        4        0     1                 .L0 
+       8        8        0     1                 .Lpcrel_hi0
+       8        8        0     1                 .L0 
+      10       10        0     1                 .L0 
+      12       12        0     1                 .L0 
+      16       16        0     1                 .L0 
+      1a       1a        0     1                 .Lpcrel_hi1
+      1a       1a        0     1                 .L0 
+      22       22        0     1                 .Lpcrel_hi2
+      22       22        0     1                 .L0 
+      2a       2a        0     1                 .L0 
+      2c       2c        0     1                 .L0 
+      2e       2e        0     1                 .L0 
+      32       32        0     1                 .Lpcrel_hi3
+      32       32        0     1                 .L0 
+      3a       3a        0     1                 .Lpcrel_hi4
+      3a       3a        0     1                 .L0 
+      42       42        0     1                 .Lpcrel_hi5
+      42       42        0     1                 .L0 
+      4a       4a        0     1                 .L0 
+      4e       4e        0     1                 .Lpcrel_hi6
+      4e       4e        0     1                 .L0 
+      56       56        0     1                 .Lpcrel_hi7
+      56       56        0     1                 .L0 
+      5e       5e        0     1                 .Lpcrel_hi8
+      5e       5e        0     1                 .L0 
+      66       66        0     1                 .L0 
+      6a       6a        0     1                 .L0 
+      6e       6e        0     1                 .Lpcrel_hi9
+      6e       6e        0     1                 .L0 
+      76       76        0     1                 .L0 
+      78       78        0     1                 .Lpcrel_hi10
+      78       78        0     1                 .L0 
+      80       80        0     1                 .L0 
+      82       82        0     1                 .Lweak_atexit
+      82       82        0     1                 .L0 
+      86       86        0     1                 .L0 
+      88       88        0     1                 .L0 
+      8a       8a        0     1                 .L0 
+      8c       8c        0     1                 .L0 
+      90       90        0     1                 .L0 
+      94       94        0     1                 .L0 
+     408      408       34     4 .option_frp
+     408      408       34     4         R9A02G021_native.elf.lto.o:(.option_frp)
+     408      408        0     1                 $d
+     408      408       34     1                 Option_FPR
+     800      800       10     4 .option_osis
+     800      800       10     4         R9A02G021_native.elf.lto.o:(.option_osis)
+     800      800        0     1                 $d
+     800      800       10     1                 Option_OSIS
+     810      810        0     1 __mdata = .
+     d50      d50     1cf4     4 .text
+     d50      d50       12     2         ./src/smc_gen/r_bsp/mcu/all/exit.o:(.text)
+     d50      d50        0     1                 .L0 
+     d50      d50        0     1                 $x
+     d50      d50        0     1                 .L0 
+     d50      d50        0     1                 _exit
+     d54      d54        0     1                 .L0 
+     d56      d56        0     1                 .L0 
+     d5a      d5a        0     1                 .L0 
+     d5c      d5c        0     1                 .L0 
+     d5e      d5e        0     1                 .L0 
+     d62      d62        0     1                 .L0 
+     d62      d62       3c     2         ./src/smc_gen/r_bsp/mcu/all/machine_timer_aux.o:(.text)
+     d62      d62        0     1                 .L0 
+     d62      d62        0     1                 $x
+     d62      d62        0     1                 .L0 
+     d62      d62        0     1                 reset_mtimer
+     d64      d64        0     1                 .L0 
+     d68      d68        0     1                 .L0 
+     d6c      d6c        0     1                 .L0 
+     d70      d70        0     1                 .L0 
+     d74      d74        0     1                 .L0 
+     d78      d78        0     1                 .L0 
+     d7a      d7a        0     1                 .L0 
+     d7a      d7a        0     1                 .L0 
+     d7a      d7a        0     1                 set_mtimer_cmp
+     d7c      d7c        0     1                 .L0 
+     d82      d82        0     1                 .L0 
+     d86      d86        0     1                 .L0 
+     d8a      d8a        0     1                 .L0 
+     d8e      d8e        0     1                 .L0 
+     d90      d90        0     1                 .L0 
+     d90      d90        0     1                 .L0 
+     d90      d90        0     1                 get_mtimer
+     d94      d94        0     1                 .L0 
+     d98      d98        0     1                 .L0 
+     d9c      d9c        0     1                 .L0 
+     d9e      d9e        0     1                 .L0 
+     d9e      d9e        6     2         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common_llvm.o:(.text)
+     d9e      d9e        0     1                 .L0 
+     d9e      d9e        0     1                 loop
+     d9e      d9e        0     1                 .L0 
+     d9e      d9e        0     1                 $x
+     d9e      d9e        0     1                 .L0 
+     d9e      d9e        0     1                 _delay_wait
+     da0      da0        0     1                 .L0 
+     da2      da2        0     1                 _exit
+     da2      da2        0     1                 .L0 
+     da2      da2        0     1                 .L0 
+     da4      da4        0     1                 .L0 
+     da4      da4        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-memcpy.o):(.text)
+     da4      da4       a8     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-memset.o):(.text)
+     da4      da4        0     1                 $x
+     da4      da4       a8     1                 memset
+     db2      db2        0     1                 .Laligned
+     db4      db4        0     1                 .Lwordified
+     dbc      dbc        0     1                 .Ltmp0
+     dce      dce        0     1                 .Ltiny
+     dd4      dd4        0     1                 .Ltmp1
+     dda      dda        0     1                 .Ltable_misaligned
+     dde      dde        0     1                 .Ltable
+     e1c      e1c        0     1                 .Lwordify
+     e2e      e2e        0     1                 .Lmisaligned
+     e32      e32        0     1                 .Ltmp2
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-init.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-exit.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-__call_atexit.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mlock.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-freer.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-stdio.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-readr.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(errno.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(read.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-lseekr.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(lseek.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-writer.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(write.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fclose.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fflush.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-impure.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fwalk.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-sbrkr.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(sbrk.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-closer.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(close.o):(.text)
+     e4c      e4c        0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libclang_rt.builtins.a(udivdi3.c.o):(.text)
+     e4c      e4c        0     4         R9A02G021_native.elf.lto.o:(.text)
+     e4c      e4c       fa     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-memcpy.o):(.text.memcpy)
+     e4c      e4c        0     1                 $x
+     e4c      e4c       fa     1                 memcpy
+     e66      e66        0     1                 .L0 
+     e7a      e7a        0     1                 .L0 
+     e7e      e7e        0     1                 .L0 
+     e90      e90        0     1                 .L0 
+     e92      e92        0     1                 .L0 
+     e96      e96        0     1                 .L0 
+     e98      e98        0     1                 .L0 
+     e9c      e9c        0     1                 .L0 
+     ea4      ea4        0     1                 .L0 
+     eb6      eb6        0     1                 .L0 
+     ebc      ebc        0     1                 .L0 
+     ed6      ed6        0     1                 .L0 
+     ef4      ef4        0     1                 .L0 
+     f46      f46       5e     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-init.o):(.text.__libc_init_array)
+     f46      f46        0     1                 $x
+     f46      f46       5e     1                 __libc_init_array
+     f6a      f6a        0     1                 .L0 
+     f74      f74        0     1                 .L0 
+     f90      f90        0     1                 .L0 
+     f9a      f9a        0     1                 .L0 
+     fa4      fa4       1c     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-exit.o):(.text.exit)
+     fa4      fa4        0     1                 $x
+     fa4      fa4       1c     1                 exit
+     fbc      fbc        0     1                 .L0 
+     fc0      fc0       d2     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-__call_atexit.o):(.text.__call_exitprocs)
+     fc0      fc0        0     1                 $x
+     fc0      fc0       d2     1                 __call_exitprocs
+     fe6      fe6        0     1                 .L0 
+     ffa      ffa        0     1                 .L0 
+     ffc      ffc        0     1                 .L0 
+    1008     1008        0     1                 .L0 
+    1018     1018        0     1                 .L0 
+    102a     102a        0     1                 .L0 
+    1030     1030        0     1                 .L0 
+    1054     1054        0     1                 .L0 
+    1060     1060        0     1                 .L0 
+    106c     106c        0     1                 .L0 
+    1074     1074        0     1                 .L0 
+    107c     107c        0     1                 .L0 
+    1092     1092       c2     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o):(.text.__sfp)
+    1092     1092        0     1                 $x
+    1092     1092       c2     1                 __sfp
+    10b0     10b0        0     1                 .L0 
+    10be     10be        0     1                 .L0 
+    10ce     10ce        0     1                 .L0 
+    10fa     10fa        0     1                 .L0 
+    1134     1134        0     1                 .L0 
+    1146     1146        0     1                 .L0 
+    1154     1154        2     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o):(.text.__sfp_lock_acquire)
+    1154     1154        0     1                 $x
+    1154     1154        2     1                 __sfp_lock_acquire
+    1156     1156      12a     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o):(.text.global_stdio_init)
+    1156     1156      12a     1                 global_stdio_init
+    1156     1156        0     1                 $x
+    1162     1162        0     1                 .L0 
+    1280     1280        2     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o):(.text.__sfp_lock_release)
+    1280     1280        0     1                 $x
+    1280     1280        2     1                 __sfp_lock_release
+    1282     1282       12     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o):(.text.__sinit)
+    1282     1282        0     1                 $x
+    1282     1282       12     1                 __sinit
+    1288     1288        0     1                 .L0 
+    1294     1294       50     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o):(.text.cleanup_stdio)
+    1294     1294       50     1                 cleanup_stdio
+    1294     1294        0     1                 $x
+    12b2     12b2        0     1                 .L0 
+    12c2     12c2        0     1                 .L0 
+    12da     12da        0     1                 .L0 
+    12e4     12e4       16     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o):(.text.__fp_lock_all)
+    12e4     12e4        0     1                 $x
+    12e4     12e4       16     1                 __fp_lock_all
+    12fa     12fa        4     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o):(.text.__fp_lock)
+    12fa     12fa        4     1                 __fp_lock
+    12fa     12fa        0     1                 $x
+    12fe     12fe       16     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o):(.text.__fp_unlock_all)
+    12fe     12fe        0     1                 $x
+    12fe     12fe       16     1                 __fp_unlock_all
+    1314     1314        4     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o):(.text.__fp_unlock)
+    1314     1314        4     1                 __fp_unlock
+    1314     1314        0     1                 $x
+    1318     1318       1c     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o):(.text.stdio_exit_handler)
+    1318     1318       1c     1                 stdio_exit_handler
+    1318     1318        0     1                 $x
+    1334     1334      4f8     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o):(.text._malloc_r)
+    1334     1334        0     1                 $x
+    1334     1334      4f8     1                 _malloc_r
+    1362     1362        0     1                 .L0 
+    1368     1368        0     1                 .L0 
+    1392     1392        0     1                 .L0 
+    13ac     13ac        0     1                 .L0 
+    13b4     13b4        0     1                 .L0 
+    13cc     13cc        0     1                 .L0 
+    13d6     13d6        0     1                 .L0 
+    13de     13de        0     1                 .L0 
+    13e6     13e6        0     1                 .L0 
+    13f2     13f2        0     1                 .L0 
+    1404     1404        0     1                 .L0 
+    1416     1416        0     1                 .L0 
+    1424     1424        0     1                 .L0 
+    142c     142c        0     1                 .L0 
+    1438     1438        0     1                 .L0 
+    1452     1452        0     1                 .L0 
+    1454     1454        0     1                 .L0 
+    1458     1458        0     1                 .L0 
+    1498     1498        0     1                 .L0 
+    14ae     14ae        0     1                 .L0 
+    14b6     14b6        0     1                 .L0 
+    14c8     14c8        0     1                 .L0 
+    14ca     14ca        0     1                 .L0 
+    14ce     14ce        0     1                 .L0 
+    14ea     14ea        0     1                 .L0 
+    14fe     14fe        0     1                 .L0 
+    1522     1522        0     1                 .L0 
+    152e     152e        0     1                 .L0 
+    153e     153e        0     1                 .L0 
+    154e     154e        0     1                 .L0 
+    155c     155c        0     1                 .L0 
+    1562     1562        0     1                 .L0 
+    156c     156c        0     1                 .L0 
+    157a     157a        0     1                 .L0 
+    157e     157e        0     1                 .L0 
+    158c     158c        0     1                 .L0 
+    1592     1592        0     1                 .L0 
+    1596     1596        0     1                 .L0 
+    15aa     15aa        0     1                 .L0 
+    15c4     15c4        0     1                 .L0 
+    15ee     15ee        0     1                 .L0 
+    15fc     15fc        0     1                 .L0 
+    1608     1608        0     1                 .L0 
+    160a     160a        0     1                 .L0 
+    1612     1612        0     1                 .L0 
+    1614     1614        0     1                 .L0 
+    162c     162c        0     1                 .L0 
+    1636     1636        0     1                 .L0 
+    164e     164e        0     1                 .L0 
+    1656     1656        0     1                 .L0 
+    1668     1668        0     1                 .L0 
+    1676     1676        0     1                 .L0 
+    16aa     16aa        0     1                 .L0 
+    16c2     16c2        0     1                 .L0 
+    16c4     16c4        0     1                 .L0 
+    16e0     16e0        0     1                 .L0 
+    1706     1706        0     1                 .L0 
+    1724     1724        0     1                 .L0 
+    1728     1728        0     1                 .L0 
+    176c     176c        0     1                 .L0 
+    17a2     17a2        0     1                 .L0 
+    17d4     17d4        0     1                 .L0 
+    17e4     17e4        0     1                 .L0 
+    17f4     17f4        0     1                 .L0 
+    180a     180a        0     1                 .L0 
+    1826     1826        0     1                 .L0 
+    182c     182c        2     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mlock.o):(.text.__malloc_lock)
+    182c     182c        0     1                 $x
+    182c     182c        2     1                 __malloc_lock
+    182e     182e        2     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mlock.o):(.text.__malloc_unlock)
+    182e     182e        0     1                 $x
+    182e     182e        2     1                 __malloc_unlock
+    1830     1830      1aa     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-freer.o):(.text._free_r)
+    1830     1830        0     1                 $x
+    1830     1830      1aa     1                 _free_r
+    187e     187e        0     1                 .L0 
+    18a6     18a6        0     1                 .L0 
+    18a8     18a8        0     1                 .L0 
+    18ba     18ba        0     1                 .L0 
+    18de     18de        0     1                 .L0 
+    18ec     18ec        0     1                 .L0 
+    18fe     18fe        0     1                 .L0 
+    1912     1912        0     1                 .L0 
+    1928     1928        0     1                 .L0 
+    1934     1934        0     1                 .L0 
+    1956     1956        0     1                 .L0 
+    1962     1962        0     1                 .L0 
+    1974     1974        0     1                 .L0 
+    1986     1986        0     1                 .L0 
+    1994     1994        0     1                 .L0 
+    199c     199c        0     1                 .L0 
+    19a6     19a6        0     1                 .L0 
+    19b4     19b4        0     1                 .L0 
+    19b8     19b8        0     1                 .L0 
+    19c6     19c6        0     1                 .L0 
+    19ce     19ce        0     1                 .L0 
+    19da     19da       c0     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-freer.o):(.text._malloc_trim_r)
+    19da     19da        0     1                 $x
+    19da     19da       c0     1                 _malloc_trim_r
+    1a24     1a24        0     1                 .L0 
+    1a26     1a26        0     1                 .L0 
+    1a3c     1a3c        0     1                 .L0 
+    1a6a     1a6a        0     1                 .L0 
+    1a9a     1a9a       30     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-stdio.o):(.text.__sread)
+    1a9a     1a9a        0     1                 $x
+    1a9a     1a9a       30     1                 __sread
+    1ab4     1ab4        0     1                 .L0 
+    1ac2     1ac2        0     1                 .L0 
+    1aca     1aca        4     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-stdio.o):(.text.__seofread)
+    1aca     1aca        0     1                 $x
+    1aca     1aca        4     1                 __seofread
+    1ace     1ace       4e     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-stdio.o):(.text.__swrite)
+    1ace     1ace        0     1                 $x
+    1ace     1ace       4e     1                 __swrite
+    1b00     1b00        0     1                 .L0 
+    1b1c     1b1c       36     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-stdio.o):(.text.__sseek)
+    1b1c     1b1c        0     1                 $x
+    1b1c     1b1c       36     1                 __sseek
+    1b40     1b40        0     1                 .L0 
+    1b4a     1b4a        0     1                 .L0 
+    1b52     1b52        6     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-stdio.o):(.text.__sclose)
+    1b52     1b52        0     1                 $x
+    1b52     1b52        6     1                 __sclose
+    1b58     1b58       32     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-readr.o):(.text._read_r)
+    1b58     1b58        0     1                 $x
+    1b58     1b58       32     1                 _read_r
+    1b80     1b80        0     1                 .L0 
+    1b8a     1b8a       10     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(read.o):(.text._read)
+    1b8a     1b8a        0     1                 $x
+    1b8a     1b8a       10     1                 _read
+    1b9a     1b9a       32     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-lseekr.o):(.text._lseek_r)
+    1b9a     1b9a        0     1                 $x
+    1b9a     1b9a       32     1                 _lseek_r
+    1bc2     1bc2        0     1                 .L0 
+    1bcc     1bcc       10     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(lseek.o):(.text._lseek)
+    1bcc     1bcc        0     1                 $x
+    1bcc     1bcc       10     1                 _lseek
+    1bdc     1bdc       32     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-writer.o):(.text._write_r)
+    1bdc     1bdc        0     1                 $x
+    1bdc     1bdc       32     1                 _write_r
+    1c04     1c04        0     1                 .L0 
+    1c0e     1c0e       10     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(write.o):(.text._write)
+    1c0e     1c0e        0     1                 $x
+    1c0e     1c0e       10     1                 _write
+    1c1e     1c1e       8e     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fclose.o):(.text._fclose_r)
+    1c1e     1c1e        0     1                 $x
+    1c1e     1c1e       8e     1                 _fclose_r
+    1c34     1c34        0     1                 .L0 
+    1c3a     1c3a        0     1                 .L0 
+    1c52     1c52        0     1                 .L0 
+    1c62     1c62        0     1                 .L0 
+    1c72     1c72        0     1                 .L0 
+    1c76     1c76        0     1                 .L0 
+    1c82     1c82        0     1                 .L0 
+    1c90     1c90        0     1                 .L0 
+    1c9c     1c9c        0     1                 .L0 
+    1c9e     1c9e        0     1                 .L0 
+    1cac     1cac       10     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fclose.o):(.text.fclose)
+    1cac     1cac        0     1                 $x
+    1cac     1cac       10     1                 fclose
+    1cbc     1cbc      17a     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fflush.o):(.text.__sflush_r)
+    1cbc     1cbc        0     1                 $x
+    1cbc     1cbc      17a     1                 __sflush_r
+    1cee     1cee        0     1                 .L0 
+    1d2c     1d2c        0     1                 .L0 
+    1d34     1d34        0     1                 .L0 
+    1d52     1d52        0     1                 .L0 
+    1d56     1d56        0     1                 .L0 
+    1d70     1d70        0     1                 .L0 
+    1d9a     1d9a        0     1                 .L0 
+    1dc2     1dc2        0     1                 .L0 
+    1dc8     1dc8        0     1                 .L0 
+    1dd4     1dd4        0     1                 .L0 
+    1df2     1df2        0     1                 .L0 
+    1e02     1e02        0     1                 .L0 
+    1e08     1e08        0     1                 .L0 
+    1e1e     1e1e        0     1                 .L0 
+    1e26     1e26        0     1                 .L0 
+    1e28     1e28        0     1                 .L0 
+    1e36     1e36       34     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fflush.o):(.text._fflush_r)
+    1e36     1e36        0     1                 $x
+    1e36     1e36       34     1                 _fflush_r
+    1e3c     1e3c        0     1                 .L0 
+    1e42     1e42        0     1                 .L0 
+    1e44     1e44        0     1                 .L0 
+    1e66     1e66        0     1                 .L0 
+    1e6a     1e6a       66     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fflush.o):(.text.fflush)
+    1e6a     1e6a        0     1                 $x
+    1e6a     1e6a       66     1                 fflush
+    1e84     1e84        0     1                 .L0 
+    1e8a     1e8a        0     1                 .L0 
+    1e98     1e98        0     1                 .L0 
+    1eba     1eba        0     1                 .L0 
+    1ec6     1ec6        0     1                 .L0 
+    1ed0     1ed0       84     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fwalk.o):(.text._fwalk_sglue)
+    1ed0     1ed0        0     1                 $x
+    1ed0     1ed0       84     1                 _fwalk_sglue
+    1efa     1efa        0     1                 .L0 
+    1f02     1f02        0     1                 .L0 
+    1f16     1f16        0     1                 .L0 
+    1f1e     1f1e        0     1                 .L0 
+    1f3a     1f3a        0     1                 .L0 
+    1f54     1f54       2e     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-sbrkr.o):(.text._sbrk_r)
+    1f54     1f54        0     1                 $x
+    1f54     1f54       2e     1                 _sbrk_r
+    1f78     1f78        0     1                 .L0 
+    1f82     1f82       1c     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(sbrk.o):(.text._sbrk)
+    1f82     1f82        0     1                 $x
+    1f82     1f82       1c     1                 _sbrk
+    1f94     1f94        0     1                 .L0 
+    1f9e     1f9e       2e     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-closer.o):(.text._close_r)
+    1f9e     1f9e        0     1                 $x
+    1f9e     1f9e       2e     1                 _close_r
+    1fc2     1fc2        0     1                 .L0 
+    1fcc     1fcc       10     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(close.o):(.text._close)
+    1fcc     1fcc        0     1                 $x
+    1fcc     1fcc       10     1                 _close
+    1fdc     1fdc      112     2         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libclang_rt.builtins.a(udivdi3.c.o):(.text.__udivdi3)
+    1fdc     1fdc        0     1                 $x
+    1fdc     1fdc      112     1                 __udivdi3
+    1fe8     1fe8        0     1                 .L0 
+    1fee     1fee        0     1                 .L0 
+    1ff4     1ff4        0     1                 .L0 
+    1ffc     1ffc        0     1                 .L0 
+    200e     200e        0     1                 .L0 
+    2024     2024        0     1                 .L0 
+    203a     203a        0     1                 .L0 
+    2058     2058        0     1                 .L0 
+    2070     2070        0     1                 .L0 
+    2086     2086        0     1                 .L0 
+    20ec     20ec        0     1                 .L0 
+    20ee     20ee       32     2         R9A02G021_native.elf.lto.o:(.text.set_operating_mode)
+    20ee     20ee       32     1                 set_operating_mode
+    20ee     20ee        0     1                 .L0 
+    20ee     20ee        0     1                 .L0 
+    20ee     20ee        0     1                 $x
+    20ee     20ee        0     1                 .L0 
+    20f2     20f2        0     1                 .L0 
+    20f6     20f6        0     1                 .L0 
+    20f6     20f6        0     1                 .L0 
+    20fa     20fa        0     1                 .L0 
+    20fc     20fc        0     1                 .L0 
+    2100     2100        0     1                 .L0 
+    2102     2102        0     1                 .L0 
+    2102     2102        0     1                 .L0 
+    210a     210a        0     1                 .L0 
+    210a     210a        0     1                 .L0 
+    2112     2112        0     1                 .L0 
+    2116     2116        0     1                 .L0 
+    2116     2116        0     1                 .L0 
+    211e     211e        0     1                 .L0 
+    211e     211e        0     1                 .L0 
+    211e     211e        0     1                 .L0 
+    2120     2120        0     1                 .L0 
+    2120     2120        0     1                 .L0 
+    2120     2120       fa     2         R9A02G021_native.elf.lto.o:(.text.R_BSP_SoftwareDelay)
+    2120     2120       fa     1                 R_BSP_SoftwareDelay
+    2120     2120        0     1                 .L0 
+    2120     2120        0     1                 .L0 
+    2120     2120        0     1                 $x
+    2120     2120        0     1                 .L0 
+    2128     2128        0     1                 .L0 
+    2128     2128        0     1                 .L0 
+    212e     212e        0     1                 .L0 
+    2130     2130        0     1                 .L0 
+    2130     2130        0     1                 .L0 
+    2144     2144        0     1                 .L0 
+    2144     2144        0     1                 .L0 
+    2144     2144        0     1                 .L0 
+    214c     214c        0     1                 .L0 
+    214c     214c        0     1                 .L0 
+    214c     214c        0     1                 .L0 
+    2152     2152        0     1                 .L0 
+    2156     2156        0     1                 .L0 
+    2156     2156        0     1                 .L0 
+    215e     215e        0     1                 .L0 
+    215e     215e        0     1                 .L0 
+    2160     2160        0     1                 .L0 
+    2164     2164        0     1                 .L0 
+    2166     2166        0     1                 .L0 
+    216a     216a        0     1                 .L0 
+    216c     216c        0     1                 .L0 
+    216c     216c        0     1                 .L0 
+    216e     216e        0     1                 .L0 
+    2176     2176        0     1                 .L0 
+    2178     2178        0     1                 .L0 
+    217c     217c        0     1                 .L0 
+    217c     217c        0     1                 .L0 
+    2180     2180        0     1                 .L0 
+    2184     2184        0     1                 .L0 
+    218e     218e        0     1                 .L0 
+    2190     2190        0     1                 .L0 
+    21a4     21a4        0     1                 .L0 
+    21a6     21a6        0     1                 .L0 
+    21a6     21a6        0     1                 .L0 
+    21aa     21aa        0     1                 .L0 
+    21aa     21aa        0     1                 .L0 
+    21ae     21ae        0     1                 .L0 
+    21b4     21b4        0     1                 .L0 
+    21b8     21b8        0     1                 .L0 
+    21be     21be        0     1                 .L0 
+    21c0     21c0        0     1                 .L0 
+    21c4     21c4        0     1                 .L0 
+    21c6     21c6        0     1                 .L0 
+    21c8     21c8        0     1                 .L0 
+    21ce     21ce        0     1                 .L0 
+    21d2     21d2        0     1                 .L0 
+    21d2     21d2        0     1                 .L0 
+    21d2     21d2        0     1                 .L0 
+    21d4     21d4        0     1                 .L0 
+    21d8     21d8        0     1                 .L0 
+    21d8     21d8        0     1                 .L0 
+    21e0     21e0        0     1                 .L0 
+    21e4     21e4        0     1                 .L0 
+    21e6     21e6        0     1                 .L0 
+    21ec     21ec        0     1                 .L0 
+    21f0     21f0        0     1                 .L0 
+    21f8     21f8        0     1                 .L0 
+    21fa     21fa        0     1                 .L0 
+    21fa     21fa        0     1                 .L0 
+    21fc     21fc        0     1                 .L0 
+    21fc     21fc        0     1                 .L0 
+    2200     2200        0     1                 .L0 
+    2204     2204        0     1                 .L0 
+    2206     2206        0     1                 .L0 
+    2208     2208        0     1                 .L0 
+    220a     220a        0     1                 .L0 
+    220a     220a        0     1                 .L0 
+    220a     220a        0     1                 .L0 
+    220e     220e        0     1                 .L0 
+    2210     2210        0     1                 .L0 
+    2214     2214        0     1                 .L0 
+    2214     2214        0     1                 .L0 
+    2216     2216        0     1                 .L0 
+    221a     221a        0     1                 .L0 
+    221a     221a        0     1                 .L0 
+    221a     221a       d2     2         R9A02G021_native.elf.lto.o:(.text.bsp_init_system)
+    221a     221a        0     1                 .L0 
+    221a     221a        0     1                 .L0 
+    221a     221a        0     1                 $x
+    221a     221a        0     1                 .L0 
+    221a     221a       d2     1                 bsp_init_system
+    2232     2232        0     1                 .L0 
+    2232     2232        0     1                 .L0 
+    2238     2238        0     1                 .L0 
+    223a     223a        0     1                 .L0 
+    223a     223a        0     1                 .L0 
+    223e     223e        0     1                 .L0 
+    223e     223e        0     1                 .L0 
+    2244     2244        0     1                 .L0 
+    2246     2246        0     1                 .L0 
+    224a     224a        0     1                 .L0 
+    224e     224e        0     1                 .L0 
+    2252     2252        0     1                 .L0 
+    2252     2252        0     1                 .L0 
+    2256     2256        0     1                 .L0 
+    2256     2256        0     1                 .L0 
+    225e     225e        0     1                 .L0 
+    2262     2262        0     1                 .L0 
+    2264     2264        0     1                 .L0 
+    2266     2266        0     1                 .L0 
+    2268     2268        0     1                 .L0 
+    226c     226c        0     1                 .L0 
+    226c     226c        0     1                 .L0 
+    2272     2272        0     1                 .L0 
+    2274     2274        0     1                 .L0 
+    227c     227c        0     1                 .L0 
+    2282     2282        0     1                 .L0 
+    2282     2282        0     1                 .L0 
+    2286     2286        0     1                 .L0 
+    228a     228a        0     1                 .L0 
+    228e     228e        0     1                 .L0 
+    2298     2298        0     1                 .L0 
+    2298     2298        0     1                 .L0 
+    2298     2298        0     1                 .L0 
+    229a     229a        0     1                 .L0 
+    22a6     22a6        0     1                 .L0 
+    22ae     22ae        0     1                 .L0 
+    22ae     22ae        0     1                 .L0 
+    22b2     22b2        0     1                 .L0 
+    22b8     22b8        0     1                 .L0 
+    22b8     22b8        0     1                 .L0 
+    22c0     22c0        0     1                 .L0 
+    22c4     22c4        0     1                 .L0 
+    22c6     22c6        0     1                 .L0 
+    22c6     22c6        0     1                 .L0 
+    22c8     22c8        0     1                 .L0 
+    22ca     22ca        0     1                 .L0 
+    22ce     22ce        0     1                 .L0 
+    22d2     22d2        0     1                 .L0 
+    22d2     22d2        0     1                 .L0 
+    22e8     22e8        0     1                 .L0 
+    22ec     22ec        0     1                 .L0 
+    22ec     22ec        0     1                 .L0 
+    22ec     22ec       86     2         R9A02G021_native.elf.lto.o:(.text.bsp_init_hardware)
+    22ec     22ec        0     1                 .L0 
+    22ec     22ec        0     1                 .L0 
+    22ec     22ec        0     1                 $x
+    22ec     22ec        0     1                 .L0 
+    22ec     22ec       86     1                 bsp_init_hardware
+    22f6     22f6        0     1                 .L0 
+    22f6     22f6        0     1                 .L0 
+    22f8     22f8        0     1                 .L0 
+    22f8     22f8        0     1                 .L0 
+    22fc     22fc        0     1                 .L0 
+    2300     2300        0     1                 .L0 
+    2302     2302        0     1                 .L0 
+    2302     2302        0     1                 .L0 
+    2302     2302        0     1                 .L0 
+    2304     2304        0     1                 .L0 
+    2304     2304        0     1                 .L0 
+    2306     2306        0     1                 .L0 
+    2306     2306        0     1                 .L0 
+    2308     2308        0     1                 .L0 
+    230c     230c        0     1                 .L0 
+    230c     230c        0     1                 .L0 
+    2314     2314        0     1                 .L0 
+    2316     2316        0     1                 .L0 
+    231a     231a        0     1                 .L0 
+    2326     2326        0     1                 .L0 
+    2332     2332        0     1                 .L0 
+    2332     2332        0     1                 .L0 
+    233c     233c        0     1                 .L0 
+    233c     233c        0     1                 .L0 
+    2340     2340        0     1                 .L0 
+    2342     2342        0     1                 .L0 
+    234c     234c        0     1                 .L0 
+    234c     234c        0     1                 .L0 
+    2350     2350        0     1                 .L0 
+    2352     2352        0     1                 .L0 
+    2352     2352        0     1                 .L0 
+    2354     2354        0     1                 .L0 
+    2354     2354        0     1                 .L0 
+    2354     2354        0     1                 .L0 
+    2358     2358        0     1                 .L0 
+    2358     2358        0     1                 .L0 
+    2364     2364        0     1                 .L0 
+    2370     2370        0     1                 .L0 
+    2370     2370        0     1                 .L0 
+    2372     2372        0     1                 .L0 
+    2372     2372        0     1                 .L0 
+    2372     2372       22     2         R9A02G021_native.elf.lto.o:(.text.initialize_vect)
+    2372     2372        0     1                 .L0 
+    2372     2372        0     1                 .L0 
+    2372     2372        0     1                 $x
+    2372     2372        0     1                 .L0 
+    2372     2372       22     1                 initialize_vect
+    2382     2382        0     1                 .L0 
+    2386     2386        0     1                 .L0 
+    238a     238a        0     1                 .L0 
+    238e     238e        0     1                 .L0 
+    2392     2392        0     1                 .L0 
+    2394     2394        0     1                 .L0 
+    2394     2394        0     1                 .L0 
+    2394     2394        2     2         R9A02G021_native.elf.lto.o:(.text.nmi_handler)
+    2394     2394        2     1                 nmi_handler
+    2394     2394        0     1                 .L0 
+    2394     2394        0     1                 .L0 
+    2394     2394        0     1                 $x
+    2394     2394        0     1                 .L0 
+    2396     2396        0     1                 .L0 
+    2396     2396       1c     2         R9A02G021_native.elf.lto.o:(.text._GetAvailWriteSpace)
+    2396     2396       1c     1                 _GetAvailWriteSpace
+    2396     2396        0     1                 .L0 
+    2396     2396        0     1                 .L0 
+    2396     2396        0     1                 $x
+    2396     2396        0     1                 .L0 
+    2398     2398        0     1                 .L0 
+    239a     239a        0     1                 .L0 
+    239e     239e        0     1                 .L0 
+    23a2     23a2        0     1                 .L0 
+    23a4     23a4        0     1                 .L0 
+    23a4     23a4        0     1                 .L0 
+    23a6     23a6        0     1                 .L0 
+    23a6     23a6        0     1                 .L0 
+    23a6     23a6        0     1                 .L0 
+    23a8     23a8        0     1                 .L0 
+    23a8     23a8        0     1                 .L0 
+    23ac     23ac        0     1                 .L0 
+    23ae     23ae        0     1                 .L0 
+    23b0     23b0        0     1                 .L0 
+    23b0     23b0        0     1                 .L0 
+    23b2     23b2        0     1                 .L0 
+    23b2     23b2        0     1                 .L0 
+    23b2     23b2       56     2         R9A02G021_native.elf.lto.o:(.text._WriteNoCheck)
+    23b2     23b2       56     1                 _WriteNoCheck
+    23b2     23b2        0     1                 .L0 
+    23b2     23b2        0     1                 .L0 
+    23b2     23b2        0     1                 $x
+    23b2     23b2        0     1                 .L0 
+    23b6     23b6        0     1                 .L0 
+    23b6     23b6        0     1                 .L0 
+    23b8     23b8        0     1                 .L0 
+    23b8     23b8        0     1                 .L0 
+    23bc     23bc        0     1                 .L0 
+    23bc     23bc        0     1                 .L0 
+    23be     23be        0     1                 .L0 
+    23c2     23c2        0     1                 .L0 
+    23c4     23c4        0     1                 .L0 
+    23c4     23c4        0     1                 .L0 
+    23c8     23c8        0     1                 .L0 
+    23c8     23c8        0     1                 .L0 
+    23cc     23cc        0     1                 .L0 
+    23d0     23d0        0     1                 .L0 
+    23d0     23d0        0     1                 .L0 
+    23d8     23d8        0     1                 .L0 
+    23d8     23d8        0     1                 .L0 
+    23da     23da        0     1                 .L0 
+    23da     23da        0     1                 .L0 
+    23dc     23dc        0     1                 .L0 
+    23dc     23dc        0     1                 .L0 
+    23dc     23dc        0     1                 .L0 
+    23e4     23e4        0     1                 .L0 
+    23e4     23e4        0     1                 .L0 
+    23e6     23e6        0     1                 .L0 
+    23e6     23e6        0     1                 .L0 
+    23ea     23ea        0     1                 .L0 
+    23ea     23ea        0     1                 .L0 
+    23f4     23f4        0     1                 .L0 
+    23f4     23f4        0     1                 .L0 
+    23f4     23f4        0     1                 .L0 
+    23fc     23fc        0     1                 .L0 
+    23fe     23fe        0     1                 .L0 
+    2400     2400        0     1                 .L0 
+    2404     2404        0     1                 .L0 
+    2404     2404        0     1                 .L0 
+    2408     2408        0     1                 .L0 
+    2408     2408        0     1                 .L0 
+    2408     2408      158     2         R9A02G021_native.elf.lto.o:(.text.SEGGER_RTT_Write)
+    2408     2408      158     1                 SEGGER_RTT_Write
+    2408     2408        0     1                 .L0 
+    2408     2408        0     1                 .L0 
+    2408     2408        0     1                 $x
+    2408     2408        0     1                 .L0 
+    240c     240c        0     1                 .L0 
+    2410     2410        0     1                 .L0 
+    2410     2410        0     1                 .L0 
+    2410     2410        0     1                 .L0 
+    2418     2418        0     1                 .L0 
+    241e     241e        0     1                 .L0 
+    241e     241e        0     1                 .L0 
+    2420     2420        0     1                 .L0 
+    2422     2422        0     1                 .L0 
+    2422     2422        0     1                 .L0 
+    2424     2424        0     1                 .L0 
+    2424     2424        0     1                 .L0 
+    2424     2424        0     1                 .L0 
+    2430     2430        0     1                 .L0 
+    2430     2430        0     1                 .L0 
+    2432     2432        0     1                 .L0 
+    2432     2432        0     1                 .L0 
+    2440     2440        0     1                 .L0 
+    2444     2444        0     1                 .L0 
+    2448     2448        0     1                 .L0 
+    2448     2448        0     1                 .L0 
+    244c     244c        0     1                 .L0 
+    244e     244e        0     1                 .L0 
+    2454     2454        0     1                 .L0 
+    2458     2458        0     1                 .L0 
+    2458     2458        0     1                 .L0 
+    245c     245c        0     1                 .L0 
+    245c     245c        0     1                 .L0 
+    245c     245c        0     1                 .L0 
+    245e     245e        0     1                 .L0 
+    2460     2460        0     1                 .L0 
+    2460     2460        0     1                 .L0 
+    2460     2460        0     1                 .L0 
+    2468     2468        0     1                 .L0 
+    2468     2468        0     1                 .L0 
+    2474     2474        0     1                 .L0 
+    2476     2476        0     1                 .L0 
+    2478     2478        0     1                 .L0 
+    247a     247a        0     1                 .L0 
+    2484     2484        0     1                 .L0 
+    2492     2492        0     1                 .L0 
+    2494     2494        0     1                 .L0 
+    2498     2498        0     1                 .L0 
+    249a     249a        0     1                 .L0 
+    249c     249c        0     1                 .L0 
+    249e     249e        0     1                 .L0 
+    24aa     24aa        0     1                 .L0 
+    24ac     24ac        0     1                 .L0 
+    24ae     24ae        0     1                 .L0 
+    24b0     24b0        0     1                 .L0 
+    24ba     24ba        0     1                 .L0 
+    24bc     24bc        0     1                 .L0 
+    24bc     24bc        0     1                 .L0 
+    24c0     24c0        0     1                 .L0 
+    24c4     24c4        0     1                 .L0 
+    24ca     24ca        0     1                 .L0 
+    24ce     24ce        0     1                 .L0 
+    24ce     24ce        0     1                 .L0 
+    24ce     24ce        0     1                 .L0 
+    24d2     24d2        0     1                 .L0 
+    24d2     24d2        0     1                 .L0 
+    24d6     24d6        0     1                 .L0 
+    24d6     24d6        0     1                 .L0 
+    24d6     24d6        0     1                 .L0 
+    24d8     24d8        0     1                 .L0 
+    24de     24de        0     1                 .L0 
+    24e2     24e2        0     1                 .L0 
+    24e2     24e2        0     1                 .L0 
+    24e2     24e2        0     1                 .L0 
+    24e6     24e6        0     1                 .L0 
+    24e6     24e6        0     1                 .L0 
+    24e8     24e8        0     1                 .L0 
+    24e8     24e8        0     1                 .L0 
+    24e8     24e8        0     1                 .L0 
+    24ec     24ec        0     1                 .L0 
+    24ec     24ec        0     1                 .L0 
+    24f0     24f0        0     1                 .L0 
+    24f4     24f4        0     1                 .L0 
+    24f8     24f8        0     1                 .L0 
+    24fa     24fa        0     1                 .L0 
+    24fa     24fa        0     1                 .L0 
+    24fc     24fc        0     1                 .L0 
+    24fc     24fc        0     1                 .L0 
+    24fc     24fc        0     1                 .L0 
+    2500     2500        0     1                 .L0 
+    2502     2502        0     1                 .L0 
+    2502     2502        0     1                 .L0 
+    2504     2504        0     1                 .L0 
+    2504     2504        0     1                 .L0 
+    2504     2504        0     1                 .L0 
+    2508     2508        0     1                 .L0 
+    250a     250a        0     1                 .L0 
+    250e     250e        0     1                 .L0 
+    2512     2512        0     1                 .L0 
+    2512     2512        0     1                 .L0 
+    2516     2516        0     1                 .L0 
+    2516     2516        0     1                 .L0 
+    251e     251e        0     1                 .L0 
+    251e     251e        0     1                 .L0 
+    2520     2520        0     1                 .L0 
+    2524     2524        0     1                 .L0 
+    2526     2526        0     1                 .L0 
+    252a     252a        0     1                 .L0 
+    252c     252c        0     1                 .L0 
+    252c     252c        0     1                 .L0 
+    2532     2532        0     1                 .L0 
+    2538     2538        0     1                 .L0 
+    2538     2538        0     1                 .L0 
+    253a     253a        0     1                 .L0 
+    253e     253e        0     1                 .L0 
+    253e     253e        0     1                 .L0 
+    253e     253e        0     1                 .L0 
+    254a     254a        0     1                 .L0 
+    254a     254a        0     1                 .L0 
+    255a     255a        0     1                 .L0 
+    255a     255a        0     1                 .L0 
+    255c     255c        0     1                 .L0 
+    255c     255c        0     1                 .L0 
+    2560     2560        0     1                 .L0 
+    2560     2560        0     1                 .L0 
+    2560     2560       4e     2         R9A02G021_native.elf.lto.o:(.text._StoreChar)
+    2560     2560       4e     1                 _StoreChar
+    2560     2560        0     1                 .L0 
+    2560     2560        0     1                 .L0 
+    2560     2560        0     1                 $x
+    2560     2560        0     1                 .L0 
+    2568     2568        0     1                 .L0 
+    256a     256a        0     1                 .L0 
+    256c     256c        0     1                 .L0 
+    2570     2570        0     1                 .L0 
+    2574     2574        0     1                 .L0 
+    257a     257a        0     1                 .L0 
+    257a     257a        0     1                 .L0 
+    257c     257c        0     1                 .L0 
+    257e     257e        0     1                 .L0 
+    2582     2582        0     1                 .L0 
+    2584     2584        0     1                 .L0 
+    2584     2584        0     1                 .L0 
+    2586     2586        0     1                 .L0 
+    2588     2588        0     1                 .L0 
+    258c     258c        0     1                 .L0 
+    2590     2590        0     1                 .L0 
+    2590     2590        0     1                 .L0 
+    2592     2592        0     1                 .L0 
+    2594     2594        0     1                 .L0 
+    2596     2596        0     1                 .L0 
+    2596     2596        0     1                 .L0 
+    2598     2598        0     1                 .L0 
+    259c     259c        0     1                 .L0 
+    25a2     25a2        0     1                 .L0 
+    25a2     25a2        0     1                 .L0 
+    25a4     25a4        0     1                 .L0 
+    25a6     25a6        0     1                 .L0 
+    25a6     25a6        0     1                 .L0 
+    25aa     25aa        0     1                 .L0 
+    25aa     25aa        0     1                 .L0 
+    25ae     25ae        0     1                 .L0 
+    25ae     25ae        0     1                 .L0 
+    25ae     25ae       fe     2         R9A02G021_native.elf.lto.o:(.text._PrintUnsigned)
+    25ae     25ae       fe     1                 _PrintUnsigned
+    25ae     25ae        0     1                 .L0 
+    25ae     25ae        0     1                 .L0 
+    25ae     25ae        0     1                 $x
+    25ae     25ae        0     1                 .L0 
+    25d0     25d0        0     1                 .L0 
+    25d4     25d4        0     1                 .L0 
+    25d4     25d4        0     1                 .L0 
+    25d8     25d8        0     1                 .L0 
+    25da     25da        0     1                 .L0 
+    25de     25de        0     1                 .L0 
+    25de     25de        0     1                 .L0 
+    25e2     25e2        0     1                 .L0 
+    25e2     25e2        0     1                 .L0 
+    25e6     25e6        0     1                 .L0 
+    25ee     25ee        0     1                 .L0 
+    25f6     25f6        0     1                 .L0 
+    25f6     25f6        0     1                 .L0 
+    25fe     25fe        0     1                 .L0 
+    2602     2602        0     1                 .L0 
+    2602     2602        0     1                 .L0 
+    2602     2602        0     1                 .L0 
+    260a     260a        0     1                 .L0 
+    260c     260c        0     1                 .L0 
+    2612     2612        0     1                 .L0 
+    2612     2612        0     1                 .L0 
+    2616     2616        0     1                 .L0 
+    261a     261a        0     1                 .L0 
+    261a     261a        0     1                 .L0 
+    261e     261e        0     1                 .L0 
+    2622     2622        0     1                 .L0 
+    2626     2626        0     1                 .L0 
+    2626     2626        0     1                 .L0 
+    262a     262a        0     1                 .L0 
+    262a     262a        0     1                 .L0 
+    262c     262c        0     1                 .L0 
+    262e     262e        0     1                 .L0 
+    262e     262e        0     1                 .L0 
+    2632     2632        0     1                 .L0 
+    2632     2632        0     1                 .L0 
+    2636     2636        0     1                 .L0 
+    2636     2636        0     1                 .L0 
+    2636     2636        0     1                 .L0 
+    263a     263a        0     1                 .L0 
+    2640     2640        0     1                 .L0 
+    2640     2640        0     1                 .L0 
+    2640     2640        0     1                 .L0 
+    2648     2648        0     1                 .L0 
+    2648     2648        0     1                 .L0 
+    264a     264a        0     1                 .L0 
+    264a     264a        0     1                 .L0 
+    264e     264e        0     1                 .L0 
+    264e     264e        0     1                 .L0 
+    2656     2656        0     1                 .L0 
+    265a     265a        0     1                 .L0 
+    265a     265a        0     1                 .L0 
+    265e     265e        0     1                 .L0 
+    2662     2662        0     1                 .L0 
+    2666     2666        0     1                 .L0 
+    2666     2666        0     1                 .L0 
+    266a     266a        0     1                 .L0 
+    266a     266a        0     1                 .L0 
+    266e     266e        0     1                 .L0 
+    266e     266e        0     1                 .L0 
+    2672     2672        0     1                 .L0 
+    2672     2672        0     1                 .L0 
+    2672     2672        0     1                 .L0 
+    267a     267a        0     1                 .L0 
+    267a     267a        0     1                 .L0 
+    2682     2682        0     1                 .L0 
+    2684     2684        0     1                 .L0 
+    268c     268c        0     1                 .L0 
+    268c     268c        0     1                 .L0 
+    2690     2690        0     1                 .L0 
+    2694     2694        0     1                 .L0 
+    2694     2694        0     1                 .L0 
+    2694     2694        0     1                 .L0 
+    269c     269c        0     1                 .L0 
+    269e     269e        0     1                 .L0 
+    26a4     26a4        0     1                 .L0 
+    26a8     26a8        0     1                 .L0 
+    26a8     26a8        0     1                 .L0 
+    26ac     26ac        0     1                 .L0 
+    26ac     26ac        0     1                 .L0 
+    26ac     26ac      2c4     2         R9A02G021_native.elf.lto.o:(.text.SEGGER_RTT_printf)
+    26ac     26ac      2c4     1                 SEGGER_RTT_printf
+    26ac     26ac        0     1                 .L0 
+    26ac     26ac        0     1                 .L0 
+    26ac     26ac        0     1                 $x
+    26ac     26ac        0     1                 .L0 
+    26da     26da        0     1                 .L0 
+    26dc     26dc        0     1                 .L0 
+    26de     26de        0     1                 .L0 
+    26de     26de        0     1                 .L0 
+    26e4     26e4        0     1                 .L0 
+    26e6     26e6        0     1                 .L0 
+    26e8     26e8        0     1                 .L0 
+    26ea     26ea        0     1                 .L0 
+    26f8     26f8        0     1                 .L0 
+    26f8     26f8        0     1                 .L0 
+    26f8     26f8        0     1                 .L0 
+    26fc     26fc        0     1                 .L0 
+    2700     2700        0     1                 .L0 
+    2702     2702        0     1                 .L0 
+    2708     2708        0     1                 .L0 
+    2708     2708        0     1                 .L0 
+    270a     270a        0     1                 .L0 
+    270c     270c        0     1                 .L0 
+    270e     270e        0     1                 .L0 
+    2710     2710        0     1                 .L0 
+    2710     2710        0     1                 .L0 
+    2710     2710        0     1                 .L0 
+    2714     2714        0     1                 .L0 
+    2730     2730        0     1                 .L0 
+    2730     2730        0     1                 .L0 
+    2730     2730        0     1                 .L0 
+    2732     2732        0     1                 .L0 
+    2734     2734        0     1                 .L0 
+    2734     2734        0     1                 .L0 
+    2736     2736        0     1                 .L0 
+    2738     2738        0     1                 .L0 
+    2738     2738        0     1                 .L0 
+    2738     2738        0     1                 .L0 
+    273a     273a        0     1                 .L0 
+    273a     273a        0     1                 .L0 
+    273e     273e        0     1                 .L0 
+    2740     2740        0     1                 .L0 
+    2740     2740        0     1                 .L0 
+    2740     2740        0     1                 .L0 
+    2742     2742        0     1                 .L0 
+    2742     2742        0     1                 .L0 
+    2742     2742        0     1                 .L0 
+    274a     274a        0     1                 .L0 
+    274e     274e        0     1                 .L0 
+    2750     2750        0     1                 .L0 
+    2754     2754        0     1                 .L0 
+    2754     2754        0     1                 .L0 
+    2756     2756        0     1                 .L0 
+    275a     275a        0     1                 .L0 
+    275c     275c        0     1                 .L0 
+    275c     275c        0     1                 .L0 
+    275c     275c        0     1                 .L0 
+    2760     2760        0     1                 .L0 
+    2762     2762        0     1                 .L0 
+    2762     2762        0     1                 .L0 
+    2766     2766        0     1                 .L0 
+    276c     276c        0     1                 .L0 
+    2778     2778        0     1                 .L0 
+    2778     2778        0     1                 .L0 
+    277a     277a        0     1                 .L0 
+    277a     277a        0     1                 .L0 
+    277c     277c        0     1                 .L0 
+    277e     277e        0     1                 .L0 
+    277e     277e        0     1                 .L0 
+    2782     2782        0     1                 .L0 
+    2782     2782        0     1                 .L0 
+    2786     2786        0     1                 .L0 
+    278e     278e        0     1                 .L0 
+    2790     2790        0     1                 .L0 
+    2792     2792        0     1                 .L0 
+    27c6     27c6        0     1                 .L0 
+    27d2     27d2        0     1                 .L0 
+    27d2     27d2        0     1                 .L0 
+    27d4     27d4        0     1                 .L0 
+    27d4     27d4        0     1                 .L0 
+    27d4     27d4        0     1                 .L0 
+    27da     27da        0     1                 .L0 
+    27da     27da        0     1                 .L0 
+    27da     27da        0     1                 .L0 
+    27e2     27e2        0     1                 .L0 
+    27e2     27e2        0     1                 .L0 
+    27e6     27e6        0     1                 .L0 
+    27e8     27e8        0     1                 .L0 
+    27ec     27ec        0     1                 .L0 
+    27ec     27ec        0     1                 .L0 
+    27ee     27ee        0     1                 .L0 
+    27f2     27f2        0     1                 .L0 
+    27f4     27f4        0     1                 .L0 
+    27f6     27f6        0     1                 .L0 
+    27f6     27f6        0     1                 .L0 
+    27f6     27f6        0     1                 .L0 
+    2800     2800        0     1                 .L0 
+    2800     2800        0     1                 .L0 
+    2806     2806        0     1                 .L0 
+    2806     2806        0     1                 .L0 
+    2806     2806        0     1                 .L0 
+    2810     2810        0     1                 .L0 
+    2810     2810        0     1                 .L0 
+    2818     2818        0     1                 .L0 
+    281c     281c        0     1                 .L0 
+    281c     281c        0     1                 .L0 
+    281c     281c        0     1                 .L0 
+    2826     2826        0     1                 .L0 
+    2826     2826        0     1                 .L0 
+    282a     282a        0     1                 .L0 
+    282a     282a        0     1                 .L0 
+    282e     282e        0     1                 .L0 
+    282e     282e        0     1                 .L0 
+    282e     282e        0     1                 .L0 
+    2838     2838        0     1                 .L0 
+    2838     2838        0     1                 .L0 
+    283a     283a        0     1                 .L0 
+    283a     283a        0     1                 .L0 
+    283c     283c        0     1                 .L0 
+    283e     283e        0     1                 .L0 
+    2842     2842        0     1                 .L0 
+    2846     2846        0     1                 .L0 
+    284e     284e        0     1                 .L0 
+    284e     284e        0     1                 .L0 
+    284e     284e        0     1                 .L0 
+    2852     2852        0     1                 .L0 
+    2852     2852        0     1                 .L0 
+    2854     2854        0     1                 .L0 
+    285c     285c        0     1                 .L0 
+    285e     285e        0     1                 .L0 
+    2860     2860        0     1                 .L0 
+    2860     2860        0     1                 .L0 
+    2864     2864        0     1                 .L0 
+    2864     2864        0     1                 .L0 
+    2866     2866        0     1                 .L0 
+    2868     2868        0     1                 .L0 
+    286e     286e        0     1                 .L0 
+    286e     286e        0     1                 .L0 
+    286e     286e        0     1                 .L0 
+    287a     287a        0     1                 .L0 
+    287a     287a        0     1                 .L0 
+    2886     2886        0     1                 .L0 
+    2886     2886        0     1                 .L0 
+    2888     2888        0     1                 .L0 
+    2888     2888        0     1                 .L0 
+    288c     288c        0     1                 .L0 
+    288c     288c        0     1                 .L0 
+    2890     2890        0     1                 .L0 
+    2892     2892        0     1                 .L0 
+    2896     2896        0     1                 .L0 
+    2896     2896        0     1                 .L0 
+    2896     2896        0     1                 .L0 
+    2898     2898        0     1                 .L0 
+    289c     289c        0     1                 .L0 
+    289c     289c        0     1                 .L0 
+    28a0     28a0        0     1                 .L0 
+    28a8     28a8        0     1                 .L0 
+    28a8     28a8        0     1                 .L0 
+    28a8     28a8        0     1                 .L0 
+    28b0     28b0        0     1                 .L0 
+    28b0     28b0        0     1                 .L0 
+    28b0     28b0        0     1                 .L0 
+    28b2     28b2        0     1                 .L0 
+    28b2     28b2        0     1                 .L0 
+    28b6     28b6        0     1                 .L0 
+    28b6     28b6        0     1                 .L0 
+    28be     28be        0     1                 .L0 
+    28c6     28c6        0     1                 .L0 
+    28c6     28c6        0     1                 .L0 
+    28c6     28c6        0     1                 .L0 
+    28ca     28ca        0     1                 .L0 
+    28d2     28d2        0     1                 .L0 
+    28d6     28d6        0     1                 .L0 
+    28d6     28d6        0     1                 .L0 
+    28d6     28d6        0     1                 .L0 
+    28de     28de        0     1                 .L0 
+    28de     28de        0     1                 .L0 
+    28de     28de        0     1                 .L0 
+    28e6     28e6        0     1                 .L0 
+    28e8     28e8        0     1                 .L0 
+    28f0     28f0        0     1                 .L0 
+    28f0     28f0        0     1                 .L0 
+    28f2     28f2        0     1                 .L0 
+    28f8     28f8        0     1                 .L0 
+    28f8     28f8        0     1                 .L0 
+    28fe     28fe        0     1                 .L0 
+    28fe     28fe        0     1                 .L0 
+    2902     2902        0     1                 .L0 
+    2902     2902        0     1                 .L0 
+    2904     2904        0     1                 .L0 
+    2904     2904        0     1                 .L0 
+    2908     2908        0     1                 .L0 
+    2908     2908        0     1                 .L0 
+    290c     290c        0     1                 .L0 
+    290c     290c        0     1                 .L0 
+    2916     2916        0     1                 .L0 
+    2916     2916        0     1                 .L0 
+    2916     2916        0     1                 .L0 
+    2918     2918        0     1                 .L0 
+    291a     291a        0     1                 .L0 
+    291a     291a        0     1                 .L0 
+    291a     291a        0     1                 .L0 
+    291c     291c        0     1                 .L0 
+    2922     2922        0     1                 .L0 
+    2922     2922        0     1                 .L0 
+    2922     2922        0     1                 .L0 
+    292c     292c        0     1                 .L0 
+    292c     292c        0     1                 .L0 
+    2934     2934        0     1                 .L0 
+    2936     2936        0     1                 .L0 
+    293e     293e        0     1                 .L0 
+    293e     293e        0     1                 .L0 
+    2940     2940        0     1                 .L0 
+    2946     2946        0     1                 .L0 
+    2946     2946        0     1                 .L0 
+    2946     2946        0     1                 .L0 
+    2948     2948        0     1                 .L0 
+    294a     294a        0     1                 .L0 
+    294c     294c        0     1                 .L0 
+    2952     2952        0     1                 .L0 
+    2952     2952        0     1                 .L0 
+    2952     2952        0     1                 .L0 
+    296c     296c        0     1                 .L0 
+    2970     2970        0     1                 .L0 
+    2970     2970        0     1                 .L0 
+    2970     2970       96     2         R9A02G021_native.elf.lto.o:(.text.main)
+    2970     2970        0     1                 .L0 
+    2970     2970        0     1                 .L0 
+    2970     2970        0     1                 $x
+    2970     2970        0     1                 .L0 
+    2970     2970       96     1                 main
+    2974     2974        0     1                 .L0 
+    2976     2976        0     1                 .L0 
+    2976     2976        0     1                 .L0 
+    2976     2976        0     1                 .L0 
+    2980     2980        0     1                 .L0 
+    2980     2980        0     1                 .L0 
+    298a     298a        0     1                 .L0 
+    298a     298a        0     1                 .L0 
+    298a     298a        0     1                 .L0 
+    298e     298e        0     1                 .L0 
+    2992     2992        0     1                 .L0 
+    2994     2994        0     1                 .L0 
+    2996     2996        0     1                 .L0 
+    299a     299a        0     1                 .L0 
+    29a0     29a0        0     1                 .L0 
+    29a0     29a0        0     1                 .L0 
+    29ac     29ac        0     1                 .L0 
+    29ae     29ae        0     1                 .L0 
+    29ae     29ae        0     1                 .L0 
+    29b2     29b2        0     1                 .L0 
+    29b6     29b6        0     1                 .L0 
+    29ba     29ba        0     1                 .L0 
+    29cc     29cc        0     1                 .L0 
+    29cc     29cc        0     1                 .L0 
+    29cc     29cc        0     1                 .L0 
+    29d0     29d0        0     1                 .L0 
+    29d2     29d2        0     1                 .L0 
+    29d2     29d2        0     1                 .L0 
+    29d6     29d6        0     1                 .L0 
+    29d8     29d8        0     1                 .L0 
+    29d8     29d8        0     1                 .L0 
+    29dc     29dc        0     1                 .L0 
+    29dc     29dc        0     1                 .L0 
+    29e4     29e4        0     1                 .L0 
+    29e4     29e4        0     1                 .L0 
+    29e8     29e8        0     1                 .L0 
+    29ec     29ec        0     1                 .L0 
+    29ec     29ec        0     1                 .L0 
+    29ec     29ec        0     1                 .L0 
+    29ee     29ee        0     1                 .L0 
+    29f2     29f2        0     1                 .L0 
+    29f2     29f2        0     1                 .L0 
+    2a02     2a02        0     1                 .L0 
+    2a06     2a06        0     1                 .L0 
+    2a06     2a06        0     1                 .L0 
+    2a06     2a06       2e     2         R9A02G021_native.elf.lto.o:(.text.hex_to_int)
+    2a06     2a06       2e     1                 hex_to_int
+    2a06     2a06        0     1                 .L0 
+    2a06     2a06        0     1                 .L0 
+    2a06     2a06        0     1                 $x
+    2a06     2a06        0     1                 .L0 
+    2a10     2a10        0     1                 .L0 
+    2a1a     2a1a        0     1                 .L0 
+    2a1e     2a1e        0     1                 .L0 
+    2a20     2a20        0     1                 .L0 
+    2a20     2a20        0     1                 .L0 
+    2a2c     2a2c        0     1                 .L0 
+    2a30     2a30        0     1                 .L0 
+    2a30     2a30        0     1                 .L0 
+    2a34     2a34        0     1                 .L0 
+    2a34     2a34        0     1                 .L0 
+    2a34     2a34       10     2         R9A02G021_native.elf.lto.o:(.text.OUTLINED_FUNCTION_0)
+    2a34     2a34       10     1                 OUTLINED_FUNCTION_0
+    2a34     2a34        0     1                 .L0 
+    2a34     2a34        0     1                 .L0 
+    2a34     2a34        0     1                 $x
+    2a44     2a44      224     4 .rodata
+    2a44     2a44        0     1         . = ALIGN ( 4 )
+    2a44     2a44        0     1         __rodata = .
+    2a44     2a44       14     4         R9A02G021_native.elf.lto.o:(.rodata..Lswitch.table.get_iclk_freq_hz)
+    2a44     2a44       14     1                 .Lswitch.table.get_iclk_freq_hz
+    2a44     2a44        0     1                 $d
+    2a58     2a58       11     1         R9A02G021_native.elf.lto.o:(.rodata._DoInit._aInitStr)
+    2a58     2a58       11     1                 _DoInit._aInitStr
+    2a58     2a58        0     1                 $d
+    2a69     2a69       6e     1         <internal>:(.rodata.str1.1)
+    2ad7     2ad7       10     1         <internal>:(.rodata.cst16)
+    2ae7     2ae7      181     1         R9A02G021_native.elf.lto.o:(.rodata.app_main.test_image_hex)
+    2ae7     2ae7      181     1                 app_main.test_image_hex
+    2ae7     2ae7        0     1                 $d
+    2c68     2c68        0     1         . = ALIGN ( 4 )
+    2c68     2c68        0     1         . = ALIGN ( 4 )
+    2c68     2c68        0     1         PROVIDE ( __preinit_array_start = . )
+    2c68     2c68        0     1         PROVIDE ( __preinit_array_end = . )
+    2c68     2c68        0     1         PROVIDE ( __init_array_start = . )
+    2c68     2c68        0     1         PROVIDE ( __init_array_end = . )
+    2c68     2c68        0     1         __erodata = .
+20004000      810      540     8 .data
+20004000      810        0     1         . = ALIGN ( 4 )
+20004000      810        0     1         PROVIDE ( __datastart = . )
+20004000      810        0     1         __data = .
+20004000      810        8     4         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o):(.sdata)
+20004000      810        0     1                 $d
+20004000      810        4     1                 __malloc_trim_threshold
+20004004      814        4     1                 __malloc_sbrk_base
+20004008      818        4     4         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-impure.o):(.sdata)
+20004008      818        0     1                 $d
+20004008      818        4     1                 _impure_ptr
+2000400c      81c        c     4         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o):(.data.__sglue)
+2000400c      81c        0     1                 $d
+2000400c      81c        c     1                 __sglue
+20004018      828      408     4         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o):(.data.__malloc_av_)
+20004018      828        0     1                 $d
+20004018      828      408     1                 __malloc_av_
+20004420      c30      120     8         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-impure.o):(.data._impure_data)
+20004420      c30        0     1                 $d
+20004420      c30      120     1                 _impure_data
+20004540      d50        0     1         . = ALIGN ( 4 )
+20004540      d50        0     1         __edata = .
+20004540      d50        0     1 PROVIDE ( __romdatastart = LOADADDR ( .data ) )
+20004540      d50        0     1 PROVIDE ( __romdatacopysize = SIZEOF ( .data ) )
+20000000 20000000        0     1 .data_eccram
+20000000 20000000        0     1         . = ALIGN ( 4 )
+20000000 20000000        0     1         PROVIDE ( __dataeccramstart = . )
+20000000 20000000        0     1         __data_eccram = .
+20000000 20000000        0     1         . = ALIGN ( 4 )
+20000000 20000000        0     1         __edata_eccram = .
+20000000 20000000        0     1 PROVIDE ( __romdataeccramstart = LOADADDR ( .data_eccram ) )
+20000000 20000000        0     1 PROVIDE ( __romdataeccramcopysize = SIZEOF ( .data_eccram ) )
+20004540 20004540      644     4 .bss
+20004540 20004540        0     1         . = ALIGN ( 4 )
+20004540 20004540        0     1         __bss = .
+20004540 20004540        4     4         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-__call_atexit.o):(.sbss)
+20004540 20004540        0     1                 $d
+20004540 20004540        4     1                 __atexit
+20004544 20004544        4     4         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o):(.sbss)
+20004544 20004544        0     1                 $d
+20004544 20004544        4     1                 __stdio_exit_handler
+20004548 20004548        c     4         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o):(.sbss)
+20004548 20004548        0     1                 $d
+20004548 20004548        4     1                 __malloc_top_pad
+2000454c 2000454c        4     1                 __malloc_max_sbrked_mem
+20004550 20004550        4     1                 __malloc_max_total_mem
+20004554 20004554        4     4         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(errno.o):(.sbss)
+20004554 20004554        0     1                 $d
+20004554 20004554        4     1                 errno
+20004558 20004558        4     4         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(sbrk.o):(.sbss)
+20004558 20004558        4     1                 _sbrk.heap_end
+20004558 20004558        0     1                 $d
+2000455c 2000455c      138     4         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o):(.bss.__sf)
+2000455c 2000455c        0     1                 $d
+2000455c 2000455c      138     1                 __sf
+20004694 20004694       28     4         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o):(.bss.__malloc_current_mallinfo)
+20004694 20004694        0     1                 $d
+20004694 20004694       28     1                 __malloc_current_mallinfo
+200046bc 200046bc        e     2         R9A02G021_native.elf.lto.o:(.bss.s_protect_counters)
+200046bc 200046bc        e     1                 s_protect_counters
+200046bc 200046bc        0     1                 $d
+200046cc 200046cc       a8     4         R9A02G021_native.elf.lto.o:(.bss._SEGGER_RTT)
+200046cc 200046cc       a8     1                 _SEGGER_RTT
+200046cc 200046cc        0     1                 $d
+20004774 20004774      400     1         R9A02G021_native.elf.lto.o:(.bss._acUpBuffer)
+20004774 20004774      400     1                 _acUpBuffer
+20004774 20004774        0     1                 $d
+20004b74 20004b74       10     1         R9A02G021_native.elf.lto.o:(.bss._acDownBuffer)
+20004b74 20004b74       10     1                 _acDownBuffer
+20004b74 20004b74        0     1                 $d
+20004b84 20004b84        0     1         . = ALIGN ( 4 )
+20004b84 20004b84        0     1         . = ALIGN ( 4 )
+20004b84 20004b84        0     1         . = ALIGN ( 4 )
+20004b84 20004b84        0     1         __ebss = .
+20004b84 20004b84        0     1         end = .
+20000000 20000000        0     1 .bss_eccram
+20000000 20000000        0     1         . = ALIGN ( 4 )
+20000000 20000000        0     1         __bss_eccram = .
+20000000 20000000        0     1         . = ALIGN ( 4 )
+20000000 20000000        0     1         __ebss_eccram = .
+20000000 20000000        0     1 PROVIDE ( __stack_size = 0x200 )
+20006ffc 20006ffc        0     1 .stack
+20006ffc 20006ffc        0     1         PROVIDE ( __stack = . )
+20006ffc 20006ffc        0     1         
+       0        0       49     1 .riscv.attributes
+       0        0       49     1         <internal>:(.riscv.attributes)
+       0        0     9fe0     1 .debug_info
+       0        0       cd     1         ./src/smc_gen/r_bsp/mcu/all/exit.o:(.debug_info)
+       0        0        0     1                 .L0 
+       0        0        0     1                 $d
+      cd       cd      116     1         ./src/smc_gen/r_bsp/mcu/all/machine_timer_aux.o:(.debug_info)
+      cd       cd        0     1                 .L0 
+      cd       cd        0     1                 $d
+     1e3      1e3      104     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common_llvm.o:(.debug_info)
+     1e3      1e3        0     1                 .L0 
+     1e3      1e3        0     1                 $d
+     2e7      2e7       d7     1         ./src/smc_gen/r_bsp/mcu/all/start.o:(.debug_info)
+     2e7      2e7        0     1                 .L0 
+     2e7      2e7        0     1                 $d
+     3be      3be     9c22     1         R9A02G021_native.elf.lto.o:(.debug_info)
+     3be      3be        0     1                 $d
+       0        0      845     1 .debug_abbrev
+       0        0       21     1         ./src/smc_gen/r_bsp/mcu/all/exit.o:(.debug_abbrev)
+       0        0        0     1                 .L0 
+       0        0        0     1                 $d
+      21       21       21     1         ./src/smc_gen/r_bsp/mcu/all/machine_timer_aux.o:(.debug_abbrev)
+      21       21        0     1                 .L0 
+      21       21        0     1                 $d
+      42       42       21     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common_llvm.o:(.debug_abbrev)
+      42       42        0     1                 .L0 
+      42       42        0     1                 $d
+      63       63       21     1         ./src/smc_gen/r_bsp/mcu/all/start.o:(.debug_abbrev)
+      63       63        0     1                 .L0 
+      63       63        0     1                 $d
+      84       84      7c1     1         R9A02G021_native.elf.lto.o:(.debug_abbrev)
+      84       84        0     1                 $d
+       0        0       80     1 .debug_aranges
+       0        0       20     1         ./src/smc_gen/r_bsp/mcu/all/exit.o:(.debug_aranges)
+       0        0        0     1                 $d
+      20       20       20     1         ./src/smc_gen/r_bsp/mcu/all/machine_timer_aux.o:(.debug_aranges)
+      20       20        0     1                 $d
+      40       40       20     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common_llvm.o:(.debug_aranges)
+      40       40        0     1                 $d
+      60       60       20     1         ./src/smc_gen/r_bsp/mcu/all/start.o:(.debug_aranges)
+      60       60        0     1                 $d
+       0        0     1633     1 .debug_line
+       0        0       61     1         ./src/smc_gen/r_bsp/mcu/all/exit.o:(.debug_line)
+       0        0        0     1                 .Lline_table_start0
+       0        0        0     1                 $d
+      61       61       a3     1         ./src/smc_gen/r_bsp/mcu/all/machine_timer_aux.o:(.debug_line)
+      61       61        0     1                 .Lline_table_start0
+      61       61        0     1                 $d
+     104      104       4f     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common_llvm.o:(.debug_line)
+     104      104        0     1                 .Lline_table_start0
+     104      104        0     1                 $d
+     153      153       f1     1         ./src/smc_gen/r_bsp/mcu/all/start.o:(.debug_line)
+     153      153        0     1                 .Lline_table_start0
+     153      153        0     1                 $d
+     244      244     13ef     1         R9A02G021_native.elf.lto.o:(.debug_line)
+     244      244        0     1                 .Lline_table_start0
+     244      244        0     1                 $d
+     349      349        0     1                 .Lline_table_start1
+     38c      38c        0     1                 .Lline_table_start2
+     611      611        0     1                 .Lline_table_start3
+     906      906        0     1                 .Lline_table_start4
+     949      949        0     1                 .Lline_table_start5
+     9f3      9f3        0     1                 .Lline_table_start6
+     da0      da0        0     1                 .Lline_table_start7
+    1425     1425        0     1                 .Lline_table_start8
+    14be     14be        0     1                 .Lline_table_start9
+    1501     1501        0     1                 .Lline_table_start10
+       0        0      6a9     1 .debug_line_str
+       0        0      6a9     1         <internal>:(.debug_line_str)
+       0        0      637     1 .debug_loclists
+       0        0      637     1         R9A02G021_native.elf.lto.o:(.debug_loclists)
+       0        0        0     1                 $d
+       c        c        0     1                 .L0 
+       0        0       c0     1 .debug_rnglists
+       0        0       c0     1         R9A02G021_native.elf.lto.o:(.debug_rnglists)
+       0        0        0     1                 $d
+       c        c        0     1                 .L0 
+       0        0      e4c     1 .debug_str_offsets
+       0        0      e4c     1         R9A02G021_native.elf.lto.o:(.debug_str_offsets)
+       0        0        0     1                 $d
+       8        8        0     1                 .L0 
+       0        0     25d4     1 .debug_str
+       0        0     25d4     1         <internal>:(.debug_str)
+       0        0      12c     1 .debug_addr
+       0        0      12c     1         R9A02G021_native.elf.lto.o:(.debug_addr)
+       0        0        0     1                 $d
+       8        8        0     1                 .L0 
+       0        0       5b     1 .comment
+       0        0       5b     1         <internal>:(.comment)
+       0        0      190     4 .debug_frame
+       0        0      190     4         R9A02G021_native.elf.lto.o:(.debug_frame)
+       0        0        0     1                 .L0 
+       0        0        0     1                 $d
+       0        0     1360     4 .symtab
+       0        0     1360     4         <internal>:(.symtab)
+       0        0      129     1 .shstrtab
+       0        0      129     1         <internal>:(.shstrtab)
+       0        0      8dd     1 .strtab
+       0        0      8dd     1         <internal>:(.strtab)
+
+Cross Reference Table
+
+Symbol                                            File
+_exit                                             ./src/smc_gen/r_bsp/mcu/all/exit.o
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-exit.o)
+set_mtimer_cmp                                    ./src/smc_gen/r_bsp/mcu/all/machine_timer_aux.o
+reset_mtimer                                      ./src/smc_gen/r_bsp/mcu/all/machine_timer_aux.o
+get_mtimer                                        ./src/smc_gen/r_bsp/mcu/all/machine_timer_aux.o
+_delay_wait                                       ./src/smc_gen/r_bsp/mcu/all/r_bsp_common_llvm.o
+                                                  R9A02G021_native.elf.lto.o
+_PowerON_Reset                                    ./src/smc_gen/r_bsp/mcu/all/start.o
+__global_pointer$                                 <internal>
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+__stack                                           /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:194
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+initialize_vect                                   R9A02G021_native.elf.lto.o
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+bsp_init_system                                   R9A02G021_native.elf.lto.o
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+__bss                                             /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:167
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+__ebss                                            /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:176
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+memset                                            /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-memset.o)
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+                                                  R9A02G021_native.elf.lto.o
+__datastart                                       /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:135
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+__romdatastart                                    /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:145
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+__romdatacopysize                                 /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:146
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+memcpy                                            /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-memcpy.o)
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+                                                  R9A02G021_native.elf.lto.o
+__dataeccramstart                                 /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:152
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+__romdataeccramstart                              /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:160
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+__romdataeccramcopysize                           /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:161
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+bsp_init_hardware                                 R9A02G021_native.elf.lto.o
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+__libc_init_array                                 /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-init.o)
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+main                                              R9A02G021_native.elf.lto.o
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+exit                                              /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-exit.o)
+                                                  ./src/smc_gen/r_bsp/mcu/all/start.o
+__preinit_array_start                             /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:78
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-init.o)
+__preinit_array_end                               /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:80
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-init.o)
+__init_array_start                                /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:81
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-init.o)
+__init_array_end                                  /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:84
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-init.o)
+__call_exitprocs                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-__call_atexit.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-exit.o)
+__stdio_exit_handler                              /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-exit.o)
+__atexit                                          /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-__call_atexit.o)
+__sfp                                             /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+__sglue                                           /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fflush.o)
+_malloc_r                                         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+__sfp_lock_acquire                                /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fclose.o)
+__sf                                              /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-impure.o)
+__sread                                           /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-stdio.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+__swrite                                          /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-stdio.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+__sseek                                           /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-stdio.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+__sclose                                          /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-stdio.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+__sfp_lock_release                                /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fclose.o)
+__sinit                                           /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fclose.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fflush.o)
+_fclose_r                                         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fclose.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+__fp_lock_all                                     /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+_fwalk_sglue                                      /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fwalk.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fflush.o)
+__fp_unlock_all                                   /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+_impure_data                                      /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-impure.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fflush.o)
+__malloc_lock                                     /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mlock.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-freer.o)
+__malloc_av_                                      /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-freer.o)
+__malloc_unlock                                   /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mlock.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-freer.o)
+__malloc_top_pad                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-freer.o)
+__malloc_sbrk_base                                /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-freer.o)
+_sbrk_r                                           /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-sbrkr.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-freer.o)
+__malloc_current_mallinfo                         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-freer.o)
+_free_r                                           /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-freer.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fclose.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fflush.o)
+__malloc_max_sbrked_mem                           /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o)
+__malloc_max_total_mem                            /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o)
+__malloc_trim_threshold                           /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-mallocr.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-freer.o)
+_malloc_trim_r                                    /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-freer.o)
+_read_r                                           /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-readr.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-stdio.o)
+__seofread                                        /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-stdio.o)
+_lseek_r                                          /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-lseekr.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-stdio.o)
+_write_r                                          /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-writer.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-stdio.o)
+_close_r                                          /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-closer.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-stdio.o)
+errno                                             /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(errno.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-readr.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(read.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-lseekr.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(lseek.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-writer.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(write.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-sbrkr.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-closer.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(close.o)
+_read                                             /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(read.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-readr.o)
+_lseek                                            /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(lseek.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-lseekr.o)
+_write                                            /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(write.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-writer.o)
+__sflush_r                                        /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fflush.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fclose.o)
+fclose                                            /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fclose.o)
+_impure_ptr                                       /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-impure.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fclose.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fflush.o)
+_fflush_r                                         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fflush.o)
+fflush                                            /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fflush.o)
+_sbrk                                             /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(sbrk.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-sbrkr.o)
+end                                               /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:177
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(sbrk.o)
+_close                                            /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(close.o)
+                                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-closer.o)
+Option_OSIS                                       R9A02G021_native.elf.lto.o
+Option_FPR                                        R9A02G021_native.elf.lto.o

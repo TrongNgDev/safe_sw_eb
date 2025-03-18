@@ -1,0 +1,12 @@
+dependencies:
+  idf:
+    version: '>=5.0.0'
+description: Lua is a powerful, efficient, lightweight, embeddable scripting language
+  (ESP-IDF component)
+files:
+  exclude:
+  - lua/luaconf.h
+license: Lua license
+repository: https://github.com/georgik/esp-idf-component-lua
+url: https://www.lua.org/
+version: 5.5.0~7

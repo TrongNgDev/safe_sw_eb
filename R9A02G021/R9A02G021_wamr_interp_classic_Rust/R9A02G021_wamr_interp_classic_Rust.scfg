@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<smc>
+    <general version="2.0.0.0">
+        <configuration active="true" id="com.renesas.smc.toolchain.llvmriscv.configuration.release">
+            <property id="com.renesas.smc.service.project.buildArtefactType" values="com.renesas.smc.service.project.buildArtefactType.exe"/>
+            <property id="com.renesas.smc.service.project.buildType" values="com.renesas.smc.service.project.buildType.release"/>
+            <toolchain id="com.renesas.smc.toolchain.llvm.toolchain.llvmriscv">
+                <option id="com.renesas.smc.toolchain.option.language" key="com.renesas.smc.toolchain.option.language.c"/>
+                <option id="com.renesas.smc.toolchain.option.buildArtefactType" key="com.renesas.smc.toolchain.option.buildArtefactType.exe"/>
+                <option id="com.renesas.smc.toolchain.option.rtos" key="com.renesas.smc.toolchain.option.rtos.none"/>
+            </toolchain>
+        </configuration>
+        <platform id="R9A02G0214CNE"/>
+        <option id="board" value="FPB-R9A02G021 (V1.02)"/>
+    </general>
+    <tool id="Clock">
+        <option enabled="true" id="cmbOptMode" selection="hsmode">
+            <item id="hsmode"/>
+            <item id="msmode"/>
+            <item id="lsmode"/>
+            <item id="ssmode"/>
+        </option>
+        <option enabled="true" id="cmbTypeSetting" selection="typea">
+            <item id="typea"/>
+            <item id="typeb"/>
+        </option>
+        <option enabled="true" id="cmbVccSetting" selection="vccrange2">
+            <item id="vccrange1"/>
+            <item id="vccrange2"/>
+            <item id="vccrange3"/>
+            <item id="vccrange4"/>
+            <item id="vccrange5"/>
+        </option>
+        <option enabled="true" id="ChkExtClockInput" selection="uncheck">
+            <item id="check"/>
+            <item id="uncheck"/>
+        </option>
+        <option enabled="false" id="txtextclkinputfrequency" selection="textinputitem">
+            <item id="textinputitem" input="20" value="20"/>
+        </option>
+        <option enabled="true" id="chkSubClock" selection="check">
+            <item id="check"/>
+            <item id="uncheck"/>
+        </option>
+        <option enabled="true" id="cmbSubclockOptMode" selection="normalmode">
+            <item id="normalmode"/>
+            <item id="lpmode1"/>
+            <item id="lpmode2"/>
+            <item id="lpmode3"/>
+        </option>
+        <option enabled="true" id="txtsubclkfrequency" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="32.768"/>
+        </option>
+        <option enabled="true" id="cmbMarginCheck" selection="normalcurrent">
+            <item id="normalcurrent"/>
+            <item id="lmcheck"/>
+            <item id="umcheck"/>
+        </option>
+        <option enabled="true" id="chkhococlock" selection="check">
+            <item id="check"/>
+            <item id="uncheck"/>
+        </option>
+        <option enabled="true" id="chkhocoafterreset" selection="uncheck">
+            <item id="check"/>
+            <item id="uncheck"/>
+        </option>
+        <option enabled="true" id="cmbhocofrequency" selection="base48">
+            <item id="base24"/>
+            <item id="base32"/>
+            <item id="base48"/>
+        </option>
+        <option enabled="true" id="chkmococlock" selection="uncheck">
+            <item id="check"/>
+            <item id="uncheck"/>
+        </option>
+        <option enabled="false" id="txtmocolock" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="8"/>
+        </option>
+        <option enabled="true" id="chklococlock" selection="uncheck">
+            <item id="check"/>
+            <item id="uncheck"/>
+        </option>
+        <option enabled="false" id="txtlocofrequency" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="32.768"/>
+        </option>
+        <option enabled="true" id="txtiwdtfrequency" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="15"/>
+        </option>
+        <option enabled="true" id="txtjtagfrequency" selection="textinputitem">
+            <item id="textinputitem" input="6.25" value="6.25"/>
+        </option>
+        <option enabled="false" id="txtclockbuzzer" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="12"/>
+        </option>
+        <option enabled="true" id="cacsclk" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="32.768"/>
+        </option>
+        <option enabled="true" id="cachclk" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="48"/>
+        </option>
+        <option enabled="false" id="caclclk" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="32.768"/>
+        </option>
+        <option enabled="false" id="cacmoclk" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="8"/>
+        </option>
+        <option enabled="false" id="tml32mclk" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="20"/>
+        </option>
+        <option enabled="true" id="tml32lclk" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="32.768"/>
+        </option>
+        <option enabled="true" id="iwdtclk" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="15"/>
+        </option>
+        <option enabled="true" id="jtag" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="6.25"/>
+        </option>
+        <option enabled="true" id="iclkpclkswitcher" selection="grphococlock_iclkpclkswitcher">
+            <item id="grpextclkinput_iclkpclkswitcher" input="" value="20"/>
+            <item id="grpsubclock_iclkpclkswitcher" input="" value="32.768/1000"/>
+            <item id="grploco_iclkpclkswitcher" input="" value="32.768/1000"/>
+            <item id="grphococlock_iclkpclkswitcher" input="" value="48"/>
+            <item id="grpmococlock_iclkpclkswitcher" input="" value="8"/>
+        </option>
+        <option enabled="true" id="iclkdivider" selection="comboBox1-1">
+            <item id="comboBox1-1"/>
+            <item id="comboBox1-2"/>
+            <item id="comboBox1-4"/>
+            <item id="comboBox1-8"/>
+            <item id="comboBox1-16"/>
+            <item id="comboBox1-32"/>
+            <item id="comboBox1-64"/>
+        </option>
+        <option enabled="true" id="pclkbdivider" selection="comboBox1-1">
+            <item id="comboBox1-1"/>
+            <item id="comboBox1-2"/>
+            <item id="comboBox1-4"/>
+            <item id="comboBox1-8"/>
+            <item id="comboBox1-16"/>
+            <item id="comboBox1-32"/>
+            <item id="comboBox1-64"/>
+        </option>
+        <option enabled="true" id="iclk" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="48"/>
+        </option>
+        <option enabled="true" id="pclkb" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="48"/>
+        </option>
+        <option enabled="true" id="clockbuzzerswitcher" selection="grphococlock_clockbuzzerswitcher">
+            <item id="grpextclkinput_clockbuzzerswitcher" input="" value="20"/>
+            <item id="grpsubclock_clockbuzzerswitcher" input="" value="32.768/1000"/>
+            <item id="grploco_clockbuzzerswitcher" input="" value="32.768/1000"/>
+            <item id="grphococlock_clockbuzzerswitcher" input="" value="48"/>
+            <item id="grpmococlock_clockbuzzerswitcher" input="" value="8"/>
+        </option>
+        <option enabled="true" id="clockbuzzerdivider" selection="comboBox1-4">
+            <item id="comboBox1-1"/>
+            <item id="comboBox1-2"/>
+            <item id="comboBox1-4"/>
+            <item id="comboBox1-8"/>
+            <item id="comboBox1-16"/>
+            <item id="comboBox1-32"/>
+            <item id="comboBox1-64"/>
+            <item id="comboBox1-128"/>
+        </option>
+        <option enabled="true" id="clockbuzzerenable" selection="uncheck">
+            <item id="check"/>
+            <item id="uncheck"/>
+        </option>
+        <option enabled="true" id="tml32lclkswitcher" selection="grpsubclock_tml32lclkswitcher">
+            <item id="grploco_tml32lclkswitcher" input="" value="32.768"/>
+            <item id="grpsubclock_tml32lclkswitcher" input="" value="32.768"/>
+        </option>
+    </tool>
+    <tool id="Interrupt">
+        <Item allocate="0" bank="0" checked="false" id="TAU0_TAU0_ENDI0" priority="15"/>
+        <Item allocate="1" bank="0" checked="false" id="TAU0_TAU0_ENDI1" priority="15"/>
+        <Item allocate="2" bank="0" checked="false" id="TAU0_TAU0_ENDI2" priority="15"/>
+        <Item allocate="3" bank="0" checked="false" id="TAU0_TAU0_ENDI3" priority="15"/>
+        <Item allocate="4" bank="0" checked="false" id="TAU0_TAU0_ENDI4" priority="15"/>
+        <Item allocate="5" bank="0" checked="false" id="TAU0_TAU0_ENDI5" priority="15"/>
+        <Item allocate="6" bank="0" checked="false" id="TAU0_TAU0_ENDI6" priority="15"/>
+        <Item allocate="7" bank="0" checked="false" id="TAU0_TAU0_ENDI7" priority="15"/>
+        <Item allocate="8" bank="0" checked="false" id="SAU0_SAU0_ENDI0" priority="15"/>
+        <Item allocate="9" bank="0" checked="false" id="SAU0_SAU0_ENDI1" priority="15"/>
+        <Item allocate="10" bank="0" checked="false" id="TAU0_TAU0_MODE8_ENDI1" priority="15"/>
+        <Item allocate="11" bank="0" checked="false" id="TAU0_TAU0_MODE8_ENDI3" priority="15"/>
+        <Item allocate="12" bank="0" checked="false" id="DTC_DTC_COMPLETE" priority="15"/>
+        <Item allocate="13" bank="0" checked="false" id="SAU1_SAU1_ENDI1" priority="15"/>
+        <Item allocate="14" bank="0" checked="false" id="PORT_PORT_IRQ2" priority="15"/>
+        <Item allocate="15" bank="0" checked="false" id="ADC12_ADC_ENDI" priority="15"/>
+        <Item allocate="16" bank="0" checked="false" id="WDT_WDT_NMIUNDF" priority="15"/>
+        <Item allocate="17" bank="0" checked="false" id="SAU0_SAU0_INTSRE0" priority="15"/>
+        <Item allocate="18" bank="0" checked="false" id="SAU0_SAU0_ENDI2" priority="15"/>
+        <Item allocate="19" bank="0" checked="false" id="SAU0_SAU0_ENDI3" priority="15"/>
+        <Item allocate="20" bank="0" checked="false" id="TML32_TML32_OUTI" priority="15"/>
+        <Item allocate="21" bank="0" checked="false" id="SAU1_SAU1_INTSRE2" priority="15"/>
+        <Item allocate="22" bank="0" checked="false" id="REMC_REMC_OUTI" priority="15"/>
+        <Item allocate="23" bank="0" checked="false" id="KINT_KEY_INTKR" priority="15"/>
+        <Item allocate="24" bank="0" checked="false" id="UARTA_UARTA_TX_ENDI0" priority="15"/>
+        <Item allocate="25" bank="0" checked="false" id="UARTA_UARTA_RX_ENDI0" priority="15"/>
+        <Item allocate="26" bank="0" checked="false" id="UARTA_UARTA_RX_ERI0" priority="15"/>
+        <Item allocate="27" bank="0" checked="false" id="SAU0_SAU0_INTSRE1" priority="15"/>
+        <Item allocate="28" bank="0" checked="false" id="UARTA_UARTA_TX_ENDI1" priority="15"/>
+        <Item allocate="29" bank="0" checked="false" id="UARTA_UARTA_RX_ENDI1" priority="15"/>
+        <Item allocate="30" bank="0" checked="false" id="UARTA_UARTA_RX_ERI1" priority="15"/>
+        <Item allocate="31" bank="0" checked="false" id="IWDT_IWDT_NMIUNDF" priority="15"/>
+    </tool>
+    <tool id="Pins" version="1.0.1.0">
+        <pinItem allocation="15" comments="" direction="None" id="TCKC" isUsedBySoftware="true" locked="false" operationMode="" status="0"/>
+        <pinItem allocation="16" comments="" direction="None" id="TMSC" isUsedBySoftware="true" locked="false" operationMode="" status="0"/>
+        <pinItem allocation="3" comments="" direction="None" id="XT1" isUsedBySoftware="true" locked="false" operationMode="" status="0"/>
+        <pinItem allocation="2" comments="" direction="None" id="XT2" isUsedBySoftware="true" locked="false" operationMode="" status="0"/>
+        <pinnumItem comment="PMOD2-IO3" id="22" symbolicname=""/>
+        <pinnumItem comment="ARDUINO-A2" id="44" symbolicname=""/>
+        <pinnumItem comment="UserSW-S1_PMOD2-CTS/INT" id="23" symbolicname="S1"/>
+        <pinnumItem comment="ARDUINO-A1" id="45" symbolicname=""/>
+        <pinnumItem comment="PMOD2-CS/CTS/INT" id="24" symbolicname=""/>
+        <pinnumItem comment="ARDUINO-A0" id="46" symbolicname=""/>
+        <pinnumItem comment="LED2_ARDUINO-D3/INT/PWM" id="25" symbolicname="LED2"/>
+        <pinnumItem comment="GND" id="47" symbolicname=""/>
+        <pinnumItem comment="ARDUINO-SCK/D13_PMOD1-SCK/RTS" id="26" symbolicname=""/>
+        <pinnumItem comment="3V3" id="48" symbolicname=""/>
+        <pinnumItem comment="ARDUINO-D2/INT" id="27" symbolicname=""/>
+        <pinnumItem comment="PMOD2-IO1/RESET" id="28" symbolicname=""/>
+        <pinnumItem comment="ARDUINO-MISO/D12_PMOD1-MISO/RXD" id="29" symbolicname=""/>
+        <pinnumItem comment="ARDUINO-MOSI/D11/PWM_PMOD1-MOSI/TXD" id="30" symbolicname=""/>
+        <pinnumItem comment="ARDUINO-SCL_GROVE-SCL/AN" id="31" symbolicname=""/>
+        <pinnumItem comment="PMOD1-IO2" id="10" symbolicname=""/>
+        <pinnumItem comment="ARDUINO-SDA_GROVE-SDA/AN" id="32" symbolicname=""/>
+        <pinnumItem comment="PMOD1-IO3" id="11" symbolicname=""/>
+        <pinnumItem comment="ARDUINO-SS/D10" id="33" symbolicname=""/>
+        <pinnumItem comment="PMOD2-IO2" id="12" symbolicname=""/>
+        <pinnumItem comment="ARDUINO-RX/D0" id="34" symbolicname=""/>
+        <pinnumItem comment="MD" id="13" symbolicname=""/>
+        <pinnumItem comment="ARDUINO-D6" id="35" symbolicname=""/>
+        <pinnumItem comment="ResetSW-S2_ARDUINO-RESET_JlinkOB-RESET" id="14" symbolicname=""/>
+        <pinnumItem comment="ARDUINO-A4" id="36" symbolicname=""/>
+        <pinnumItem comment="JlinkOB-TCKC" id="15" symbolicname=""/>
+        <pinnumItem comment="ARDUINO-A5" id="37" symbolicname=""/>
+        <pinnumItem comment="JlinkOB-TMSC" id="16" symbolicname=""/>
+        <pinnumItem comment="LED1_ARDUINO-D9/PWM" id="38" symbolicname="LED1"/>
+        <pinnumItem comment="JlinkOB(VCOM)-TXD" id="17" symbolicname="COM_TXD0"/>
+        <pinnumItem comment="ARDUINO-TX/D1" id="39" symbolicname=""/>
+        <pinnumItem comment="JlinkOB(VCOM)-RXD" id="18" symbolicname="COM_RXD0"/>
+        <pinnumItem comment="ARDUINO-D7" id="19" symbolicname=""/>
+        <pinnumItem comment="XT2" id="2" symbolicname=""/>
+        <pinnumItem comment="XT1" id="3" symbolicname=""/>
+        <pinnumItem comment="PMOD1-IO0/INT" id="7" symbolicname=""/>
+        <pinnumItem comment="PMOD2-IO0/INT" id="8" symbolicname=""/>
+        <pinnumItem comment="PMOD1-IO1/RESET" id="9" symbolicname=""/>
+        <pinnumItem comment="ARDUINO-D5" id="40" symbolicname=""/>
+        <pinnumItem comment="PMOD2-TXD" id="41" symbolicname=""/>
+        <pinnumItem comment="ARDUINO-D8" id="20" symbolicname=""/>
+        <pinnumItem comment="PMOD2-RXD" id="42" symbolicname=""/>
+        <pinnumItem comment="PMOD2-RTS" id="21" symbolicname=""/>
+        <pinnumItem comment="ARDUINO-A3" id="43" symbolicname=""/>
+    </tool>
+    <tool id="Summary" version="1.0.0.0">
+        <option id="com.renesas.smc.code.path" value="src/smc_gen"/>
+        <option id="com.renesas.smc.code.type" value="Normal Folder"/>
+    </tool>
+    <tool id="SWComponent" version="1.0.0.0">
+        <configuration inuse="true" name="r_bsp">
+            <component description="Dependencies : None&#10;The r_bsp package provides a foundation for code to be built on top of. It provides startup code, iodefines, and MCU information for different boards. There are 2 folders that make up the r_bsp package. The 'mcu' folder contains files that are common to a MCU group. These files provide functionality such as easy register access, CPU functions, and a file named 'mcu_info.h' for each MCU group. The 'mcu_info.h' file has information about the MCU on the board and is configured based on the information given in r_bsp_config.h. The information in 'mcu_info.h' is used to help configure Renesas middleware that uses the r_bsp package. The 'board' folder has a folder with startup code for each supported board.  Which MCU and board is chosen is decided by the settings in 'platform.h'. The user can choose which board they are using by uncommenting the include path that applies to their board. For example, if you are using the RSK+RX64M then you would uncomment the #include &quot;./board/generic_rx64m/r_bsp.h&quot; include path. Users are encouraged to add their own boards to the 'board' directory. BSPs are configured by using the r_bsp_config.h file. Each board will have a reference configuration file named r_bsp_config_reference.h. The user should copy this file to their project, rename it to r_bsp_config.h, and use the options inside the file to configure the BSP for their project." detailDescription="Board Support Packages. - v1.22" display="r_bsp" id="r_bsp_riscv1.22" version="1.22">
+                <gridItem id="BSP_CFG_STARTUP_FUNCTIONS" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_FLRPROTAC_REG_FUNCTIONS" selectedIndex="1"/>
+                <gridItem id="BSP_CFG_FLRPROTS_REG_VALUE" selectedIndex="0x000FFFFC"/>
+                <gridItem id="BSP_CFG_FLRPROTE_REG_VALUE" selectedIndex="0x000FFFFF"/>
+                <gridItem id="BSP_CFG_ENASRIPRGID_REG_DISABLE" selectedIndex="1"/>
+                <gridItem id="BSP_CFG_OCD_SERIAL_ID_VALUE_0" selectedIndex="0xFFFFFFFF"/>
+                <gridItem id="BSP_CFG_OCD_SERIAL_ID_VALUE_1" selectedIndex="0xFFFFFFFF"/>
+                <gridItem id="BSP_CFG_OCD_SERIAL_ID_VALUE_2" selectedIndex="0xFFFFFFFF"/>
+                <gridItem id="BSP_CFG_OCD_SERIAL_ID_VALUE_3" selectedIndex="0xFFFFFFFF"/>
+                <gridItem id="BSP_CFG_ENAACWD_REG_DISABLE" selectedIndex="1"/>
+                <gridItem id="BSP_CFG_ACCESS_WINDOW_START_BLOCK_ADDRESS" selectedIndex="0x7FF"/>
+                <gridItem id="BSP_CFG_ACCESS_WINDOW_END_BLOCK_ADDRESS" selectedIndex="0x7FF"/>
+                <gridItem id="BSP_CFG_ENAUSERID_REG_DISABLE" selectedIndex="1"/>
+                <gridItem id="BSP_CFG_USER_ID_SETTING_0" selectedIndex="0xFFFFFFFF"/>
+                <gridItem id="BSP_CFG_USER_ID_SETTING_1" selectedIndex="0xFFFFFFFF"/>
+                <gridItem id="BSP_CFG_USER_ID_SETTING_2" selectedIndex="0xFFFFFFFF"/>
+                <gridItem id="BSP_CFG_USER_ID_SETTING_3" selectedIndex="0xFFFFFFFF"/>
+                <gridItem id="BSP_CFG_DATA_FLASH_ACCESS_ENABLE" selectedIndex="1"/>
+                <gridItem id="BSP_CFG_PFB_ENABLE" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_CONFIGURATOR_SELECT" selectedIndex="1"/>
+                <gridItem id="BSP_CFG_CLOCK_OPERATION_API_FUNCTIONS" selectedIndex="1"/>
+                <gridItem id="BSP_CFG_CHANGE_CLOCK_SETTING_API_FUNCTIONS" selectedIndex="1"/>
+                <gridItem id="BSP_CFG_INTERRUPT_SETTING_API_FUNCTIONS" selectedIndex="1"/>
+                <gridItem id="BSP_CFG_USER_WARM_START_CALLBACK_PRE_INITC_ENABLED" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_USER_WARM_START_PRE_C_FUNCTION" selectedIndex="my_sw_warmstart_prec_function"/>
+                <gridItem id="BSP_CFG_USER_WARM_START_CALLBACK_POST_INITC_ENABLED" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_USER_WARM_START_POST_C_FUNCTION" selectedIndex="my_sw_warmstart_postc_function"/>
+                <gridItem id="BSP_CFG_PARAM_CHECKING_ENABLE" selectedIndex="1"/>
+                <gridItem id="BSP_CFG_MACHINE_TIMER" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_MTIME_CLOCK_SOURCE" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_MACHINE_TIMER_MODE" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_MTIME_INTERVAL_VALUE" selectedIndex="100"/>
+                <gridItem id="BSP_CFG_MTIME_INTERVAL_UNIT" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_MTIP_PRIORITY" selectedIndex="15"/>
+                <gridItem id="BSP_CFG_SOFTWARE_INTERRUPT" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_MSIP_PRIORITY" selectedIndex="15"/>
+            </component>
+            <source description="RISC-V MCU Software Integration System" display="RISC-V MCU Software Integration System" id="com.renesas.smc.tools.swcomponent.riscv.sis.source"/>
+            <source description="RISC-V MCU Software Integration System" display="RISC-V MCU Software Integration System" id="com.renesas.smc.tools.swcomponent.riscv.sis.source"/>
+        </configuration>
+    </tool>
+    <tool id="System">
+        <section id="ocd">
+            <option enabled="true" id="operation" selection="usecJtag">
+                <item enabled="true" id="unused"/>
+                <item enabled="true" id="usecJtag"/>
+            </option>
+        </section>
+    </tool>
+</smc>

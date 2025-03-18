@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<QE>
+    <Segment id="Project">
+        <Setting id="SrcGeneratedPath" value="src/smc_gen"/>
+    </Segment>
+    <Segment id="Pin">
+        <Setting id="P301" value="TMSC"/>
+        <Setting id="XT1" value="XT1"/>
+        <Setting id="P300" value="TCKC"/>
+        <Setting id="XT2" value="XT2"/>
+    </Segment>
+    <Segment id="Device">
+        <Setting id="Series" value="ASSP_EASY"/>
+        <Setting id="Group" value="R9A02G021"/>
+        <Setting id="Board" value="FPB-R9A02G021"/>
+        <Setting id="PartNo" value="R9A02G0214CNE"/>
+        <Setting id="PinCount" value="48"/>
+    </Segment>
+    <Segment id="Component">
+        <Setting id="r_bsp" value=""/>
+        <Segment component="r_bsp_riscv1.22" id="r_bsp" source="com.renesas.smc.tools.swcomponent.riscv.sis.source">
+            <Setting id="BSP_CFG_USER_ID_SETTING_0" value="0xFFFFFFFF"/>
+            <Setting id="BSP_CFG_USER_ID_SETTING_1" value="0xFFFFFFFF"/>
+            <Setting id="BSP_CFG_FLRPROTE_REG_VALUE" value="0x000FFFFF"/>
+            <Setting id="BSP_CFG_SOFTWARE_INTERRUPT" value="0"/>
+            <Setting id="BSP_CFG_OCD_SERIAL_ID_VALUE_0" value="0xFFFFFFFF"/>
+            <Setting id="BSP_CFG_ACCESS_WINDOW_START_BLOCK_ADDRESS" value="0x7FF"/>
+            <Setting id="BSP_CFG_USER_ID_SETTING_2" value="0xFFFFFFFF"/>
+            <Setting id="BSP_CFG_USER_ID_SETTING_3" value="0xFFFFFFFF"/>
+            <Setting id="BSP_CFG_ENASRIPRGID_REG_DISABLE" value="1"/>
+            <Setting id="BSP_CFG_CHANGE_CLOCK_SETTING_API_FUNCTIONS" value="1"/>
+            <Setting id="BSP_CFG_DATA_FLASH_ACCESS_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_PFB_ENABLE" value="1"/>
+            <Setting id="BSP_CFG_USER_WARM_START_POST_C_FUNCTION" value="my_sw_warmstart_postc_function"/>
+            <Setting id="BSP_CFG_MACHINE_TIMER_MODE" value="0"/>
+            <Setting id="BSP_CFG_CLOCK_OPERATION_API_FUNCTIONS" value="1"/>
+            <Setting id="BSP_CFG_CONFIGURATOR_SELECT" value="1"/>
+            <Setting id="BSP_CFG_MTIP_PRIORITY" value="0x0F"/>
+            <Setting id="BSP_CFG_USER_WARM_START_PRE_C_FUNCTION" value="my_sw_warmstart_prec_function"/>
+            <Setting id="BSP_CFG_PARAM_CHECKING_ENABLE" value="1"/>
+            <Setting id="BSP_CFG_STARTUP_FUNCTIONS" value="0"/>
+            <Setting id="BSP_CFG_MTIME_INTERVAL_UNIT" value="1"/>
+            <Setting id="BSP_CFG_MTIME_INTERVAL_VALUE" value="100"/>
+            <Setting id="BSP_CFG_USER_WARM_START_CALLBACK_PRE_INITC_ENABLED" value="0"/>
+            <Setting id="BSP_CFG_MACHINE_TIMER" value="0"/>
+            <Setting id="BSP_CFG_ENAACWD_REG_DISABLE" value="1"/>
+            <Setting id="BSP_CFG_MTIME_CLOCK_SOURCE" value="0"/>
+            <Setting id="BSP_CFG_ENAUSERID_REG_DISABLE" value="1"/>
+            <Setting id="BSP_CFG_OCD_SERIAL_ID_VALUE_3" value="0xFFFFFFFF"/>
+            <Setting id="BSP_CFG_INTERRUPT_SETTING_API_FUNCTIONS" value="1"/>
+            <Setting id="BSP_CFG_OCD_SERIAL_ID_VALUE_1" value="0xFFFFFFFF"/>
+            <Setting id="BSP_CFG_OCD_SERIAL_ID_VALUE_2" value="0xFFFFFFFF"/>
+            <Setting id="BSP_CFG_MSIP_PRIORITY" value="0x0F"/>
+            <Setting id="BSP_CFG_FLRPROTAC_REG_FUNCTIONS" value="1"/>
+            <Setting id="BSP_CFG_ACCESS_WINDOW_END_BLOCK_ADDRESS" value="0x7FF"/>
+            <Setting id="BSP_CFG_FLRPROTS_REG_VALUE" value="0x000FFFFC"/>
+            <Setting id="BSP_CFG_USER_WARM_START_CALLBACK_POST_INITC_ENABLED" value="0"/>
+        </Segment>
+    </Segment>
+</QE>

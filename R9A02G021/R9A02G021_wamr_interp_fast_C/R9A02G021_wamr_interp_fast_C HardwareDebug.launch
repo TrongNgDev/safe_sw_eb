@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.renesas.cdt.launch.dsf.gdbremote.launchConfigurationType">
+    <booleanAttribute key=".setStepMode" value="false"/>
+    <intAttribute key="com.renesas.cdt.core.connectionTimeout" value="30"/>
+    <stringAttribute key="com.renesas.cdt.core.initCommands" value=""/>
+    <stringAttribute key="com.renesas.cdt.core.ipAddress" value="localhost"/>
+    <stringAttribute key="com.renesas.cdt.core.jtagDeviceId" value="com.renesas.hardwaredebug.riscv.jlink"/>
+    <listAttribute key="com.renesas.cdt.core.listGDBExe"/>
+    <listAttribute key="com.renesas.cdt.core.listGDBLaunchName">
+        <listEntry value="main"/>
+    </listAttribute>
+    <listAttribute key="com.renesas.cdt.core.listGDBPort">
+        <listEntry value="61234"/>
+    </listAttribute>
+    <booleanAttribute key="com.renesas.cdt.core.loadImage" value="true"/>
+    <stringAttribute key="com.renesas.cdt.core.optionInitCommands" value=""/>
+    <intAttribute key="com.renesas.cdt.core.portNumber" value="61234"/>
+    <stringAttribute key="com.renesas.cdt.core.runCommands" value=""/>
+    <stringAttribute key="com.renesas.cdt.core.secondGDBExe" value="green_dsp-elf-gdb"/>
+    <intAttribute key="com.renesas.cdt.core.secondGdbPortNumber" value="61237"/>
+    <stringAttribute key="com.renesas.cdt.core.serverParam" value="-g SEGGERJLINKRISCV -t R9A02G021 -uConnectionTimeout= 30 -uSelect= &quot;USB&quot; -uJLinkSetting= &quot;${workspace_loc:/${ProjName}}/${LaunchConfigName}.jlink&quot; -uJLinkLog= &quot;${workspace_loc:/${ProjName}}/JLinkLog.log&quot; -uLowPower= 0 -uInteface= &quot;cJTAG&quot; -uIfSpeed= &quot;4000&quot; -uResetBeginConnection= 1 -uNoReset= 1 -uResetPreRun= 1 -uIdCodeBytes=  &quot;FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF&quot; -uresetOnReload= 1 -n &quot;0&quot; -uAllowRRMDMM= 0 -uFlashBp= 0 -uSimulation= 0 -uAllowCachingFlash= 0 -uTimeMeasurementEnable= 1"/>
+    <booleanAttribute key="com.renesas.cdt.core.setResume" value="true"/>
+    <booleanAttribute key="com.renesas.cdt.core.setStopAt" value="true"/>
+    <stringAttribute key="com.renesas.cdt.core.stopAt" value="main"/>
+    <stringAttribute key="com.renesas.cdt.core.targetDevice" value="R9A02G021"/>
+    <booleanAttribute key="com.renesas.cdt.core.useRemoteTarget" value="true"/>
+    <stringAttribute key="com.renesas.cdt.launch.dsf.IO_MAP" value="${support_area_loc}../../../.."/>
+    <booleanAttribute key="com.renesas.cdt.launch.dsf.USE_DEFAULT_IO_MAP" value="true"/>
+    <listAttribute key="com.renesas.cdt.launch.dsf.downloadImages">
+        <listEntry value="|true|true|true|0|true|No core|INTERNAL_MEMORY||false"/>
+    </listAttribute>
+    <booleanAttribute key="com.renesas.cdt.launch.dsf.downloadImagesUpgradedV30" value="true"/>
+    <stringAttribute key="com.renesas.cdt.launch.dsf.launchSeqType" value="com.renesas.cdt.launch.dsf.launchSequence.e2GdbServer"/>
+    <stringAttribute key="com.renesas.cdt.launch.dsf.serverPath" value="${renesas.support.targetLoc:com.renesas.ide.supportfiles.riscvmcu.debug.debugSupportFileTarget}/e2-server-gdb"/>
+    <booleanAttribute key="com.renesas.hardwaredebug.riscv.break.allowSimulation" value="false"/>
+    <booleanAttribute key="com.renesas.hardwaredebug.riscv.break.useFlashBreakpoints.resetorrepurposed" value="false"/>
+    <stringAttribute key="com.renesas.hardwaredebug.riscv.cfiFlash.workRam.endAddr" value=""/>
+    <stringAttribute key="com.renesas.hardwaredebug.riscv.cfiFlash.workRam.startAddr" value=""/>
+    <booleanAttribute key="com.renesas.hardwaredebug.riscv.e2lite.allowRRMDMM" value="false"/>
+    <booleanAttribute key="com.renesas.hardwaredebug.riscv.e2lite.memory.isLittleEndian" value="true"/>
+    <intAttribute key="com.renesas.hardwaredebug.riscv.interface.speed" value="4000"/>
+    <stringAttribute key="com.renesas.hardwaredebug.riscv.interface.type" value="cJTAG"/>
+    <booleanAttribute key="com.renesas.hardwaredebug.riscv.jlink-uResetBeginConnection=" value="true"/>
+    <stringAttribute key="com.renesas.hardwaredebug.riscv.jlink.connection.id_code2" value="FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"/>
+    <stringAttribute key="com.renesas.hardwaredebug.riscv.jlink.connection.jlinkScript" value=""/>
+    <booleanAttribute key="com.renesas.hardwaredebug.riscv.jlink.connection.registerInit" value="false"/>
+    <booleanAttribute key="com.renesas.hardwaredebug.riscv.jlink.connection.reset" value="false"/>
+    <booleanAttribute key="com.renesas.hardwaredebug.riscv.jlink.connection.resetAfterDownload" value="false"/>
+    <booleanAttribute key="com.renesas.hardwaredebug.riscv.jlink.connection.resetPreRun" value="true"/>
+    <stringAttribute key="com.renesas.hardwaredebug.riscv.jlink.logFile" value="${workspace_loc:/${ProjName}}/JLinkLog.log"/>
+    <stringAttribute key="com.renesas.hardwaredebug.riscv.jlink.lowPowerHandling" value="No"/>
+    <booleanAttribute key="com.renesas.hardwaredebug.riscv.jlink.memory.isLittleEndian" value="true"/>
+    <booleanAttribute key="com.renesas.hardwaredebug.riscv.jlink.options.RiscvJLinkDebugToolSettingsTree.resetAfterReload" value="true"/>
+    <stringAttribute key="com.renesas.hardwaredebug.riscv.jlink.scriptFile" value=""/>
+    <stringAttribute key="com.renesas.hardwaredebug.riscv.jlink.settingsFile" value="${workspace_loc:/${ProjName}}/${LaunchConfigName}.jlink"/>
+    <booleanAttribute key="com.renesas.hardwaredebug.riscv.prog_rewrite_irom" value="true"/>
+    <booleanAttribute key="com.renesas.hardwaredebug.timemeasurement" value="true"/>
+    <booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.useProjBinaryForImage" value="true"/>
+    <booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.useProjBinaryForSymbols" value="true"/>
+    <stringAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_NAME" value="riscv32-unknown-elf-gdb"/>
+    <booleanAttribute key="org.eclipse.cdt.dsf.gdb.NON_STOP" value="true"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="HardwareDebug/R9A02G021_wamr_interp_fast_C.elf"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="R9A02G021_wamr_interp_fast_C"/>
+    <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="true"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="com.renesas.cdt.managedbuild.llvm.riscvmcu.configuration.debug.1500709109"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/R9A02G021_wamr_interp_fast_C"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="false"/>
+</launchConfiguration>
