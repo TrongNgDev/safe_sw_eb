@@ -11,6 +11,7 @@
 /esp32c6/**/dependencies.lock
 /esp32c6/**/sdkconfig.old
 /esp32c6/**/sdkconfig.ci
+/esp32c6/**/build/
 
 # Renesas
 */trash/
