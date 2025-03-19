@@ -20,7 +20,7 @@
 #include <lauxlib.h>
 
 // Lua application
-#include "../../../applications/lua/image_app_lua.h"
+#include "../../../applications/image_app_lua/image_app_lua.h"
 
 #define CPU_CYCLE_ENABLE 1
 #define LOG_ENABLE 0
