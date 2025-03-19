@@ -10,5 +10,8 @@
     "idf.customExtraVars": {
         "IDF_TARGET": "esp32c6"
     },
-    "idf.flashType": "JTAG"
+    "idf.flashType": "JTAG",
+    "files.associations": {
+        "image_app_wasm_aot.h": "c"
+    }
 }

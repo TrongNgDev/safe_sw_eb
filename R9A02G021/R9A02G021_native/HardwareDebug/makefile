@@ -95,7 +95,7 @@ all: R9A02G021_native.elf secondary-outputs
 
 # Tool invocations
 R9A02G021_native.elf: $(OBJS) $(USER_OBJS) $(LIBRARY_GENERATOR_OUTPUTTYPE_OUTPUTS) $(LINKER_SCRIPT)
-	$(file > R9A02G021_native.elf.in,--target=riscv32 -mabi=ilp32 -march=rv32imaczba_zbb_zbs -Oz -ffunction-sections -fdata-sections -flto -fdiagnostics-parseable-fixits -fno-strict-aliasing -Wunused -Wuninitialized -Wall -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Waggregate-return -g -o "R9A02G021_native.elf" $(OBJS) $(USER_OBJS) -T "/home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld" -Wl,-Map=R9A02G021_native.map -Wl,--start-group -lnosys  -Wl,--end-group -Wl,-e_PowerON_Reset -Wl,--cref -Wl,--icf=none)
+	$(file > R9A02G021_native.elf.in,--target=riscv32 -mabi=ilp32 -march=rv32imaczba_zbb_zbs -Oz -ffunction-sections -fdata-sections -flto -fdiagnostics-parseable-fixits -fno-strict-aliasing -Wunused -Wuninitialized -Wall -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Waggregate-return -g -o "R9A02G021_native.elf" $(OBJS) $(USER_OBJS) -T "/home/tdn/safe_sw_eb/R9A02G021/R9A02G021_native/src/linker_script.ld" -Wl,-Map=R9A02G021_native.map -Wl,--start-group -lnosys  -Wl,--end-group -Wl,-e_PowerON_Reset -Wl,--cref -Wl,--icf=none)
 	@echo Building target: $@ && clang @"R9A02G021_native.elf.in"> R9A02G021_native.cref
 : 
 	riscv-elf-libgen  --select-lib=newlib --compiler-options=--target=riscv32,-mabi=ilp32,-march=rv32imaczba_zbb_zbs,-Oz,-ffunction-sections,-fdata-sections,-flto,-fdiagnostics-parseable-fixits,-fno-strict-aliasing --assembler-options=--target=riscv32,-mabi=ilp32,-march=rv32imaczba_zbb_zbs -o

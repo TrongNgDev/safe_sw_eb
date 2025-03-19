@@ -57,7 +57,7 @@
      800      800        0     1                 $d
      800      800       10     1                 Option_OSIS
      810      810        0     1 __mdata = .
-     d50      d50     1cf4     4 .text
+     d50      d50     1d84     4 .text
      d50      d50       12     2         ./src/smc_gen/r_bsp/mcu/all/exit.o:(.text)
      d50      d50        0     1                 .L0 
      d50      d50        0     1                 $x
@@ -1238,99 +1238,150 @@
     296c     296c        0     1                 .L0 
     2970     2970        0     1                 .L0 
     2970     2970        0     1                 .L0 
-    2970     2970       96     2         R9A02G021_native.elf.lto.o:(.text.main)
+    2970     2970      126     2         R9A02G021_native.elf.lto.o:(.text.main)
     2970     2970        0     1                 .L0 
     2970     2970        0     1                 .L0 
     2970     2970        0     1                 $x
     2970     2970        0     1                 .L0 
-    2970     2970       96     1                 main
+    2970     2970      126     1                 main
     2974     2974        0     1                 .L0 
     2976     2976        0     1                 .L0 
     2976     2976        0     1                 .L0 
-    2976     2976        0     1                 .L0 
     2980     2980        0     1                 .L0 
     2980     2980        0     1                 .L0 
-    298a     298a        0     1                 .L0 
-    298a     298a        0     1                 .L0 
-    298a     298a        0     1                 .L0 
+    2982     2982        0     1                 .L0 
+    2982     2982        0     1                 .L0 
+    2986     2986        0     1                 .L0 
+    2986     2986        0     1                 .L0 
+    298e     298e        0     1                 .L0 
+    298e     298e        0     1                 .L0 
     298e     298e        0     1                 .L0 
     2992     2992        0     1                 .L0 
-    2994     2994        0     1                 .L0 
     2996     2996        0     1                 .L0 
     299a     299a        0     1                 .L0 
-    29a0     29a0        0     1                 .L0 
-    29a0     29a0        0     1                 .L0 
-    29ac     29ac        0     1                 .L0 
-    29ae     29ae        0     1                 .L0 
+    299e     299e        0     1                 .L0 
+    29a4     29a4        0     1                 .L0 
+    29a4     29a4        0     1                 .L0 
+    29a8     29a8        0     1                 .L0 
+    29aa     29aa        0     1                 .L0 
+    29aa     29aa        0     1                 .L0 
     29ae     29ae        0     1                 .L0 
     29b2     29b2        0     1                 .L0 
+    29b2     29b2        0     1                 .L0 
+    29b2     29b2        0     1                 .L0 
     29b6     29b6        0     1                 .L0 
-    29ba     29ba        0     1                 .L0 
-    29cc     29cc        0     1                 .L0 
-    29cc     29cc        0     1                 .L0 
-    29cc     29cc        0     1                 .L0 
-    29d0     29d0        0     1                 .L0 
-    29d2     29d2        0     1                 .L0 
-    29d2     29d2        0     1                 .L0 
-    29d6     29d6        0     1                 .L0 
+    29b6     29b6        0     1                 .L0 
+    29c0     29c0        0     1                 .L0 
+    29c0     29c0        0     1                 .L0 
+    29c4     29c4        0     1                 .L0 
+    29ce     29ce        0     1                 .L0 
+    29ce     29ce        0     1                 .L0 
+    29d4     29d4        0     1                 .L0 
+    29d4     29d4        0     1                 .L0 
     29d8     29d8        0     1                 .L0 
-    29d8     29d8        0     1                 .L0 
-    29dc     29dc        0     1                 .L0 
-    29dc     29dc        0     1                 .L0 
-    29e4     29e4        0     1                 .L0 
-    29e4     29e4        0     1                 .L0 
-    29e8     29e8        0     1                 .L0 
-    29ec     29ec        0     1                 .L0 
-    29ec     29ec        0     1                 .L0 
-    29ec     29ec        0     1                 .L0 
-    29ee     29ee        0     1                 .L0 
-    29f2     29f2        0     1                 .L0 
-    29f2     29f2        0     1                 .L0 
+    29de     29de        0     1                 .L0 
+    29e2     29e2        0     1                 .L0 
+    29e2     29e2        0     1                 .L0 
+    29e2     29e2        0     1                 .L0 
+    29e6     29e6        0     1                 .L0 
+    29e6     29e6        0     1                 .L0 
+    29f8     29f8        0     1                 .L0 
+    29f8     29f8        0     1                 .L0 
+    29f8     29f8        0     1                 .L0 
+    29fc     29fc        0     1                 .L0 
+    29fe     29fe        0     1                 .L0 
+    29fe     29fe        0     1                 .L0 
     2a02     2a02        0     1                 .L0 
-    2a06     2a06        0     1                 .L0 
-    2a06     2a06        0     1                 .L0 
-    2a06     2a06       2e     2         R9A02G021_native.elf.lto.o:(.text.hex_to_int)
-    2a06     2a06       2e     1                 hex_to_int
-    2a06     2a06        0     1                 .L0 
-    2a06     2a06        0     1                 .L0 
-    2a06     2a06        0     1                 $x
-    2a06     2a06        0     1                 .L0 
+    2a04     2a04        0     1                 .L0 
+    2a04     2a04        0     1                 .L0 
+    2a08     2a08        0     1                 .L0 
+    2a08     2a08        0     1                 .L0 
     2a10     2a10        0     1                 .L0 
-    2a1a     2a1a        0     1                 .L0 
+    2a12     2a12        0     1                 .L0 
+    2a12     2a12        0     1                 .L0 
+    2a14     2a14        0     1                 .L0 
+    2a14     2a14        0     1                 .L0 
+    2a18     2a18        0     1                 .L0 
+    2a18     2a18        0     1                 .L0 
     2a1e     2a1e        0     1                 .L0 
-    2a20     2a20        0     1                 .L0 
-    2a20     2a20        0     1                 .L0 
-    2a2c     2a2c        0     1                 .L0 
-    2a30     2a30        0     1                 .L0 
-    2a30     2a30        0     1                 .L0 
-    2a34     2a34        0     1                 .L0 
-    2a34     2a34        0     1                 .L0 
-    2a34     2a34       10     2         R9A02G021_native.elf.lto.o:(.text.OUTLINED_FUNCTION_0)
-    2a34     2a34       10     1                 OUTLINED_FUNCTION_0
-    2a34     2a34        0     1                 .L0 
-    2a34     2a34        0     1                 .L0 
-    2a34     2a34        0     1                 $x
-    2a44     2a44      224     4 .rodata
-    2a44     2a44        0     1         . = ALIGN ( 4 )
-    2a44     2a44        0     1         __rodata = .
-    2a44     2a44       14     4         R9A02G021_native.elf.lto.o:(.rodata..Lswitch.table.get_iclk_freq_hz)
-    2a44     2a44       14     1                 .Lswitch.table.get_iclk_freq_hz
-    2a44     2a44        0     1                 $d
-    2a58     2a58       11     1         R9A02G021_native.elf.lto.o:(.rodata._DoInit._aInitStr)
-    2a58     2a58       11     1                 _DoInit._aInitStr
-    2a58     2a58        0     1                 $d
-    2a69     2a69       6e     1         <internal>:(.rodata.str1.1)
-    2ad7     2ad7       10     1         <internal>:(.rodata.cst16)
-    2ae7     2ae7      181     1         R9A02G021_native.elf.lto.o:(.rodata.app_main.test_image_hex)
-    2ae7     2ae7      181     1                 app_main.test_image_hex
-    2ae7     2ae7        0     1                 $d
-    2c68     2c68        0     1         . = ALIGN ( 4 )
-    2c68     2c68        0     1         . = ALIGN ( 4 )
-    2c68     2c68        0     1         PROVIDE ( __preinit_array_start = . )
-    2c68     2c68        0     1         PROVIDE ( __preinit_array_end = . )
-    2c68     2c68        0     1         PROVIDE ( __init_array_start = . )
-    2c68     2c68        0     1         PROVIDE ( __init_array_end = . )
-    2c68     2c68        0     1         __erodata = .
+    2a22     2a22        0     1                 .L0 
+    2a22     2a22        0     1                 .L0 
+    2a40     2a40        0     1                 .L0 
+    2a42     2a42        0     1                 .L0 
+    2a42     2a42        0     1                 .L0 
+    2a42     2a42        0     1                 .L0 
+    2a46     2a46        0     1                 .L0 
+    2a4a     2a4a        0     1                 .L0 
+    2a4e     2a4e        0     1                 .L0 
+    2a52     2a52        0     1                 .L0 
+    2a56     2a56        0     1                 .L0 
+    2a58     2a58        0     1                 .L0 
+    2a5c     2a5c        0     1                 .L0 
+    2a5e     2a5e        0     1                 .L0 
+    2a60     2a60        0     1                 .L0 
+    2a60     2a60        0     1                 .L0 
+    2a64     2a64        0     1                 .L0 
+    2a6a     2a6a        0     1                 .L0 
+    2a6c     2a6c        0     1                 .L0 
+    2a6c     2a6c        0     1                 .L0 
+    2a6c     2a6c        0     1                 .L0 
+    2a7c     2a7c        0     1                 .L0 
+    2a7c     2a7c        0     1                 .L0 
+    2a7e     2a7e        0     1                 .L0 
+    2a7e     2a7e        0     1                 .L0 
+    2a7e     2a7e        0     1                 .L0 
+    2a82     2a82        0     1                 .L0 
+    2a82     2a82        0     1                 .L0 
+    2a86     2a86        0     1                 .L0 
+    2a8a     2a8a        0     1                 .L0 
+    2a8a     2a8a        0     1                 .L0 
+    2a8e     2a8e        0     1                 .L0 
+    2a92     2a92        0     1                 .L0 
+    2a96     2a96        0     1                 .L0 
+    2a96     2a96        0     1                 .L0 
+    2a96     2a96        0     1                 .L0 
+    2a96     2a96       2e     2         R9A02G021_native.elf.lto.o:(.text.hex_to_int)
+    2a96     2a96       2e     1                 hex_to_int
+    2a96     2a96        0     1                 .L0 
+    2a96     2a96        0     1                 .L0 
+    2a96     2a96        0     1                 $x
+    2a96     2a96        0     1                 .L0 
+    2aa0     2aa0        0     1                 .L0 
+    2aaa     2aaa        0     1                 .L0 
+    2aae     2aae        0     1                 .L0 
+    2ab0     2ab0        0     1                 .L0 
+    2ab0     2ab0        0     1                 .L0 
+    2abc     2abc        0     1                 .L0 
+    2ac0     2ac0        0     1                 .L0 
+    2ac0     2ac0        0     1                 .L0 
+    2ac4     2ac4        0     1                 .L0 
+    2ac4     2ac4        0     1                 .L0 
+    2ac4     2ac4       10     2         R9A02G021_native.elf.lto.o:(.text.OUTLINED_FUNCTION_0)
+    2ac4     2ac4       10     1                 OUTLINED_FUNCTION_0
+    2ac4     2ac4        0     1                 .L0 
+    2ac4     2ac4        0     1                 .L0 
+    2ac4     2ac4        0     1                 $x
+    2ad4     2ad4      220     4 .rodata
+    2ad4     2ad4        0     1         . = ALIGN ( 4 )
+    2ad4     2ad4        0     1         __rodata = .
+    2ad4     2ad4       14     4         R9A02G021_native.elf.lto.o:(.rodata..Lswitch.table.get_iclk_freq_hz)
+    2ad4     2ad4       14     1                 .Lswitch.table.get_iclk_freq_hz
+    2ad4     2ad4        0     1                 $d
+    2ae8     2ae8       11     1         R9A02G021_native.elf.lto.o:(.rodata._DoInit._aInitStr)
+    2ae8     2ae8       11     1                 _DoInit._aInitStr
+    2ae8     2ae8        0     1                 $d
+    2af9     2af9       6f     1         <internal>:(.rodata.str1.1)
+    2b68     2b68       10     1         <internal>:(.rodata.cst16)
+    2b78     2b78      17b     1         R9A02G021_native.elf.lto.o:(.rodata.app_main.test_image_hex)
+    2b78     2b78      17b     1                 app_main.test_image_hex
+    2b78     2b78        0     1                 $d
+    2cf3     2cf3        1     1         . = ALIGN ( 4 )
+    2cf4     2cf4        0     1         . = ALIGN ( 4 )
+    2cf4     2cf4        0     1         PROVIDE ( __preinit_array_start = . )
+    2cf4     2cf4        0     1         PROVIDE ( __preinit_array_end = . )
+    2cf4     2cf4        0     1         PROVIDE ( __init_array_start = . )
+    2cf4     2cf4        0     1         PROVIDE ( __init_array_end = . )
+    2cf4     2cf4        0     1         __erodata = .
 20004000      810      540     8 .data
 20004000      810        0     1         . = ALIGN ( 4 )
 20004000      810        0     1         PROVIDE ( __datastart = . )
@@ -1363,7 +1414,7 @@
 20000000 20000000        0     1         __edata_eccram = .
 20000000 20000000        0     1 PROVIDE ( __romdataeccramstart = LOADADDR ( .data_eccram ) )
 20000000 20000000        0     1 PROVIDE ( __romdataeccramcopysize = SIZEOF ( .data_eccram ) )
-20004540 20004540      644     4 .bss
+20004540 20004540      784     4 .bss
 20004540 20004540        0     1         . = ALIGN ( 4 )
 20004540 20004540        0     1         __bss = .
 20004540 20004540        4     4         /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-__call_atexit.o):(.sbss)
@@ -1401,11 +1452,17 @@
 20004b74 20004b74       10     1         R9A02G021_native.elf.lto.o:(.bss._acDownBuffer)
 20004b74 20004b74       10     1                 _acDownBuffer
 20004b74 20004b74        0     1                 $d
-20004b84 20004b84        0     1         . = ALIGN ( 4 )
-20004b84 20004b84        0     1         . = ALIGN ( 4 )
-20004b84 20004b84        0     1         . = ALIGN ( 4 )
-20004b84 20004b84        0     1         __ebss = .
-20004b84 20004b84        0     1         end = .
+20004b84 20004b84      100     1         R9A02G021_native.elf.lto.o:(.bss.shared_buffer)
+20004b84 20004b84      100     1                 shared_buffer
+20004b84 20004b84        0     1                 $d
+20004c84 20004c84       40     1         R9A02G021_native.elf.lto.o:(.bss.app_main.gray_output)
+20004c84 20004c84       40     1                 app_main.gray_output
+20004c84 20004c84        0     1                 $d
+20004cc4 20004cc4        0     1         . = ALIGN ( 4 )
+20004cc4 20004cc4        0     1         . = ALIGN ( 4 )
+20004cc4 20004cc4        0     1         . = ALIGN ( 4 )
+20004cc4 20004cc4        0     1         __ebss = .
+20004cc4 20004cc4        0     1         end = .
 20000000 20000000        0     1 .bss_eccram
 20000000 20000000        0     1         . = ALIGN ( 4 )
 20000000 20000000        0     1         __bss_eccram = .
@@ -1417,22 +1474,22 @@
 20006ffc 20006ffc        0     1         
        0        0       49     1 .riscv.attributes
        0        0       49     1         <internal>:(.riscv.attributes)
-       0        0     9fe0     1 .debug_info
-       0        0       cd     1         ./src/smc_gen/r_bsp/mcu/all/exit.o:(.debug_info)
+       0        0     a104     1 .debug_info
+       0        0       d7     1         ./src/smc_gen/r_bsp/mcu/all/exit.o:(.debug_info)
        0        0        0     1                 .L0 
        0        0        0     1                 $d
-      cd       cd      116     1         ./src/smc_gen/r_bsp/mcu/all/machine_timer_aux.o:(.debug_info)
-      cd       cd        0     1                 .L0 
-      cd       cd        0     1                 $d
-     1e3      1e3      104     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common_llvm.o:(.debug_info)
-     1e3      1e3        0     1                 .L0 
-     1e3      1e3        0     1                 $d
-     2e7      2e7       d7     1         ./src/smc_gen/r_bsp/mcu/all/start.o:(.debug_info)
-     2e7      2e7        0     1                 .L0 
-     2e7      2e7        0     1                 $d
-     3be      3be     9c22     1         R9A02G021_native.elf.lto.o:(.debug_info)
-     3be      3be        0     1                 $d
-       0        0      845     1 .debug_abbrev
+      d7       d7      120     1         ./src/smc_gen/r_bsp/mcu/all/machine_timer_aux.o:(.debug_info)
+      d7       d7        0     1                 .L0 
+      d7       d7        0     1                 $d
+     1f7      1f7      10e     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common_llvm.o:(.debug_info)
+     1f7      1f7        0     1                 .L0 
+     1f7      1f7        0     1                 $d
+     305      305       e1     1         ./src/smc_gen/r_bsp/mcu/all/start.o:(.debug_info)
+     305      305        0     1                 .L0 
+     305      305        0     1                 $d
+     3e6      3e6     9d1e     1         R9A02G021_native.elf.lto.o:(.debug_info)
+     3e6      3e6        0     1                 $d
+       0        0      889     1 .debug_abbrev
        0        0       21     1         ./src/smc_gen/r_bsp/mcu/all/exit.o:(.debug_abbrev)
        0        0        0     1                 .L0 
        0        0        0     1                 $d
@@ -1445,7 +1502,7 @@
       63       63       21     1         ./src/smc_gen/r_bsp/mcu/all/start.o:(.debug_abbrev)
       63       63        0     1                 .L0 
       63       63        0     1                 $d
-      84       84      7c1     1         R9A02G021_native.elf.lto.o:(.debug_abbrev)
+      84       84      805     1         R9A02G021_native.elf.lto.o:(.debug_abbrev)
       84       84        0     1                 $d
        0        0       80     1 .debug_aranges
        0        0       20     1         ./src/smc_gen/r_bsp/mcu/all/exit.o:(.debug_aranges)
@@ -1456,7 +1513,7 @@
       40       40        0     1                 $d
       60       60       20     1         ./src/smc_gen/r_bsp/mcu/all/start.o:(.debug_aranges)
       60       60        0     1                 $d
-       0        0     1633     1 .debug_line
+       0        0     1746     1 .debug_line
        0        0       61     1         ./src/smc_gen/r_bsp/mcu/all/exit.o:(.debug_line)
        0        0        0     1                 .Lline_table_start0
        0        0        0     1                 $d
@@ -1469,7 +1526,7 @@
      153      153       f1     1         ./src/smc_gen/r_bsp/mcu/all/start.o:(.debug_line)
      153      153        0     1                 .Lline_table_start0
      153      153        0     1                 $d
-     244      244     13ef     1         R9A02G021_native.elf.lto.o:(.debug_line)
+     244      244     1502     1         R9A02G021_native.elf.lto.o:(.debug_line)
      244      244        0     1                 .Lline_table_start0
      244      244        0     1                 $d
      349      349        0     1                 .Lline_table_start1
@@ -1480,26 +1537,26 @@
      9f3      9f3        0     1                 .Lline_table_start6
      da0      da0        0     1                 .Lline_table_start7
     1425     1425        0     1                 .Lline_table_start8
-    14be     14be        0     1                 .Lline_table_start9
-    1501     1501        0     1                 .Lline_table_start10
-       0        0      6a9     1 .debug_line_str
-       0        0      6a9     1         <internal>:(.debug_line_str)
-       0        0      637     1 .debug_loclists
-       0        0      637     1         R9A02G021_native.elf.lto.o:(.debug_loclists)
+    1640     1640        0     1                 .Lline_table_start9
+    1703     1703        0     1                 .Lline_table_start10
+       0        0      6bd     1 .debug_line_str
+       0        0      6bd     1         <internal>:(.debug_line_str)
+       0        0      6e2     1 .debug_loclists
+       0        0      6e2     1         R9A02G021_native.elf.lto.o:(.debug_loclists)
        0        0        0     1                 $d
        c        c        0     1                 .L0 
-       0        0       c0     1 .debug_rnglists
-       0        0       c0     1         R9A02G021_native.elf.lto.o:(.debug_rnglists)
+       0        0       da     1 .debug_rnglists
+       0        0       da     1         R9A02G021_native.elf.lto.o:(.debug_rnglists)
        0        0        0     1                 $d
        c        c        0     1                 .L0 
-       0        0      e4c     1 .debug_str_offsets
-       0        0      e4c     1         R9A02G021_native.elf.lto.o:(.debug_str_offsets)
+       0        0      e94     1 .debug_str_offsets
+       0        0      e94     1         R9A02G021_native.elf.lto.o:(.debug_str_offsets)
        0        0        0     1                 $d
        8        8        0     1                 .L0 
-       0        0     25d4     1 .debug_str
-       0        0     25d4     1         <internal>:(.debug_str)
-       0        0      12c     1 .debug_addr
-       0        0      12c     1         R9A02G021_native.elf.lto.o:(.debug_addr)
+       0        0     26bb     1 .debug_str
+       0        0     26bb     1         <internal>:(.debug_str)
+       0        0      148     1 .debug_addr
+       0        0      148     1         R9A02G021_native.elf.lto.o:(.debug_addr)
        0        0        0     1                 $d
        8        8        0     1                 .L0 
        0        0       5b     1 .comment
@@ -1508,12 +1565,12 @@
        0        0      190     4         R9A02G021_native.elf.lto.o:(.debug_frame)
        0        0        0     1                 .L0 
        0        0        0     1                 $d
-       0        0     1360     4 .symtab
-       0        0     1360     4         <internal>:(.symtab)
+       0        0     13a0     4 .symtab
+       0        0     13a0     4         <internal>:(.symtab)
        0        0      129     1 .shstrtab
        0        0      129     1         <internal>:(.shstrtab)
-       0        0      8dd     1 .strtab
-       0        0      8dd     1         <internal>:(.strtab)
+       0        0      906     1 .strtab
+       0        0      906     1         <internal>:(.strtab)
 
 Cross Reference Table
 
@@ -1528,34 +1585,34 @@ _delay_wait                                       ./src/smc_gen/r_bsp/mcu/all/r_
 _PowerON_Reset                                    ./src/smc_gen/r_bsp/mcu/all/start.o
 __global_pointer$                                 <internal>
                                                   ./src/smc_gen/r_bsp/mcu/all/start.o
-__stack                                           /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:194
+__stack                                           /home/tdn/safe_sw_eb/R9A02G021/R9A02G021_native/src/linker_script.ld:194
                                                   ./src/smc_gen/r_bsp/mcu/all/start.o
 initialize_vect                                   R9A02G021_native.elf.lto.o
                                                   ./src/smc_gen/r_bsp/mcu/all/start.o
 bsp_init_system                                   R9A02G021_native.elf.lto.o
                                                   ./src/smc_gen/r_bsp/mcu/all/start.o
-__bss                                             /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:167
+__bss                                             /home/tdn/safe_sw_eb/R9A02G021/R9A02G021_native/src/linker_script.ld:167
                                                   ./src/smc_gen/r_bsp/mcu/all/start.o
-__ebss                                            /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:176
+__ebss                                            /home/tdn/safe_sw_eb/R9A02G021/R9A02G021_native/src/linker_script.ld:176
                                                   ./src/smc_gen/r_bsp/mcu/all/start.o
 memset                                            /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-memset.o)
                                                   ./src/smc_gen/r_bsp/mcu/all/start.o
                                                   /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-findfp.o)
                                                   R9A02G021_native.elf.lto.o
-__datastart                                       /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:135
+__datastart                                       /home/tdn/safe_sw_eb/R9A02G021/R9A02G021_native/src/linker_script.ld:135
                                                   ./src/smc_gen/r_bsp/mcu/all/start.o
-__romdatastart                                    /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:145
+__romdatastart                                    /home/tdn/safe_sw_eb/R9A02G021/R9A02G021_native/src/linker_script.ld:145
                                                   ./src/smc_gen/r_bsp/mcu/all/start.o
-__romdatacopysize                                 /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:146
+__romdatacopysize                                 /home/tdn/safe_sw_eb/R9A02G021/R9A02G021_native/src/linker_script.ld:146
                                                   ./src/smc_gen/r_bsp/mcu/all/start.o
 memcpy                                            /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-memcpy.o)
                                                   ./src/smc_gen/r_bsp/mcu/all/start.o
                                                   R9A02G021_native.elf.lto.o
-__dataeccramstart                                 /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:152
+__dataeccramstart                                 /home/tdn/safe_sw_eb/R9A02G021/R9A02G021_native/src/linker_script.ld:152
                                                   ./src/smc_gen/r_bsp/mcu/all/start.o
-__romdataeccramstart                              /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:160
+__romdataeccramstart                              /home/tdn/safe_sw_eb/R9A02G021/R9A02G021_native/src/linker_script.ld:160
                                                   ./src/smc_gen/r_bsp/mcu/all/start.o
-__romdataeccramcopysize                           /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:161
+__romdataeccramcopysize                           /home/tdn/safe_sw_eb/R9A02G021/R9A02G021_native/src/linker_script.ld:161
                                                   ./src/smc_gen/r_bsp/mcu/all/start.o
 bsp_init_hardware                                 R9A02G021_native.elf.lto.o
                                                   ./src/smc_gen/r_bsp/mcu/all/start.o
@@ -1565,13 +1622,13 @@ main                                              R9A02G021_native.elf.lto.o
                                                   ./src/smc_gen/r_bsp/mcu/all/start.o
 exit                                              /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-exit.o)
                                                   ./src/smc_gen/r_bsp/mcu/all/start.o
-__preinit_array_start                             /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:78
+__preinit_array_start                             /home/tdn/safe_sw_eb/R9A02G021/R9A02G021_native/src/linker_script.ld:78
                                                   /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-init.o)
-__preinit_array_end                               /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:80
+__preinit_array_end                               /home/tdn/safe_sw_eb/R9A02G021/R9A02G021_native/src/linker_script.ld:80
                                                   /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-init.o)
-__init_array_start                                /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:81
+__init_array_start                                /home/tdn/safe_sw_eb/R9A02G021/R9A02G021_native/src/linker_script.ld:81
                                                   /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-init.o)
-__init_array_end                                  /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:84
+__init_array_end                                  /home/tdn/safe_sw_eb/R9A02G021/R9A02G021_native/src/linker_script.ld:84
                                                   /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-init.o)
 __call_exitprocs                                  /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-__call_atexit.o)
                                                   /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-exit.o)
@@ -1671,7 +1728,7 @@ _fflush_r                                         /home/tdn/.local/share/renesas
 fflush                                            /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-fflush.o)
 _sbrk                                             /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(sbrk.o)
                                                   /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-sbrkr.o)
-end                                               /home/tdn/safe-sw-eb/R9A02G021_native/src/linker_script.ld:177
+end                                               /home/tdn/safe_sw_eb/R9A02G021/R9A02G021_native/src/linker_script.ld:177
                                                   /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(sbrk.o)
 _close                                            /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libnosys.a(close.o)
                                                   /home/tdn/.local/share/renesas/e2_studio/toolchains/llvm-19.1.7.202501-riscv-elf/llvm-for-renesas-riscv/bin/../lib/clang-runtimes/riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32/lib/libc.a(libc_a-closer.o)

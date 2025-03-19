@@ -14,6 +14,7 @@ local function hex_to_int(c)
 end
 
 
+
 local function process_rgb_to_gray(hex_input, width, height)
     local str_len = #hex_input
     if (str_len % 2) ~= 0 then
@@ -69,11 +70,11 @@ local function apply_brightness(gray_data, offset)
 end
 
 
-local function main()
+function main()
     local test_image_hex = table.concat({
         "47704C47704C47704C0000FFFFFE04040347704C47704C",
         "47704C95BF2BA9CB31467AB145194EFEFEF47704C47704C",
-        "47704C9AC32DFFFFF135EA41451941237A0BBCD47704C",
+        "47704C9AC32DFFFFFF135EA41451941237A0BBCD47704C",
         "000000FFFFFF49AEADB3D5E7C94265B94FFFFFF040503",
         "000000FFFFFFFEE404E3D236363531979255485F13000000",
         "47704CFFFFFFFEF02FF6F6F6F6E6EBF6E6EBF65F861C47704C",
@@ -102,7 +103,7 @@ local function main()
     print("------------------------")
     print("Applying brightness +50 ...")
     apply_brightness(gray_data, 50)
-    
+
     for i = 1, ret do
         print(string.format("pixel %d after brightness: %d", i, gray_data[i]))
     end

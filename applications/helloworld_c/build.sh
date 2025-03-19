@@ -18,7 +18,7 @@ echo "Generate helloworld_wasm.h .."
 
 echo "Generate Wasm AoT app .."
 ../../tools/bin/wamrc --target=riscv32 \
-        --target-abi=ilp32d \
+        --target-abi=ilp32 \
         -o helloworld.aot \
         helloworld.wasm
 

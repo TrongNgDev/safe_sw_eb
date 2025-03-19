@@ -1,0 +1,9 @@
+# SEGGER J-Link RTT Viewer V8.14 Terminal Log File
+# Compiled: 16:00:08 on Feb 21 2025
+# Logging started @ 19 Mar 2025 08:46:07
+00> Start testing Renesas R9A02G021 - native..
+00> Finish testing.
+00> R9A02G021: Total CPU cycles = 16265
+(Connection lost)
+
+# Logging stopped @ 19 Mar 2025 08:46:39

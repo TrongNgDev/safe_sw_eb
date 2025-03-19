@@ -1,0 +1,25 @@
+CMake Deprecation Warning at wasm-micro-runtime/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Build Configurations:
+     Build as target RISCV32
+     CMAKE_BUILD_TYPE Release
+     WAMR Interpreter disabled
+     WAMR AOT enabled
+     WAMR Fast JIT disabled
+     WAMR LLVM ORC JIT disabled
+     Libc builtin enabled
+     Libc WASI disabled
+     Fast interpreter disabled
+     Multiple modules disabled
+     Bulk memory feature enabled
+     Wakeup of blocking operations enabled
+     Reference types enabled
+     GC performance profiling disabled
+     Quick AOT/JIT entries enabled
+     AOT intrinsics enabled

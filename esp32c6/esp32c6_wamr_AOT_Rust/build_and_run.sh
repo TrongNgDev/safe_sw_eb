@@ -8,6 +8,7 @@ fi
 
 rm -rf build
 idf.py set-target "esp32c6"
+cp -f sdkconfig_IDRAM sdkconfig
 idf.py build
 idf.py flash
-#idf.py monitor
+idf.py monitor

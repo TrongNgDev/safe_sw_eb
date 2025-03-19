@@ -29,7 +29,9 @@ echo "Binary dump Wasm file to .h .."
 
 echo "Generate Wasm AoT app .."
 ../../tools/bin/wamrc --target=riscv32 \
-        --target-abi=ilp32d \
+        --target-abi=ilp32 \
+        --cpu=generic-rv32 \
+        --cpu-features=+m \
         -o image_app.aot \
         image_app.wasm
 

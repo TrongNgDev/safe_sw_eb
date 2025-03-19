@@ -1,0 +1,67 @@
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0x15 (USB_UART_HPSYS),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x400228dc
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875720,len:0x16b8
+load:0x4086c110,len:0xe84
+load:0x4086e610,len:0x304c
+entry 0x4086c11a
+[0;32mI (23) boot: ESP-IDF v5.4-dirty 2nd stage bootloader[0m
+[0;32mI (23) boot: compile time Mar 19 2025 02:44:41[0m
+[0;32mI (24) boot: chip revision: v0.0[0m
+[0;32mI (24) boot: efuse block revision: v0.1[0m
+[0;32mI (27) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (31) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (34) boot.esp32c6: SPI Flash Size : 2MB[0m
+[0;32mI (38) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (45) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (51) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (71) boot: End of partition table[0m
+[0;32mI (74) esp_image: segment 0: paddr=00010020 vaddr=42028020 size=0b400h ( 46080) map[0m
+[0;32mI (90) esp_image: segment 1: paddr=0001b428 vaddr=40800000 size=04bf0h ( 19440) load[0m
+[0;32mI (95) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=26d3ch (159036) map[0m
+[0;32mI (126) esp_image: segment 3: paddr=00046d64 vaddr=40804bf0 size=06800h ( 26624) load[0m
+[0;32mI (132) esp_image: segment 4: paddr=0004d56c vaddr=4080b3f0 size=02578h (  9592) load[0m
+[0;32mI (138) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (139) boot: Disabling RNG early entropy source...[0m
+[0;32mI (151) cpu_start: Unicore app[0m
+[0;32mI (160) cpu_start: Pro cpu start user code[0m
+[0;32mI (160) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (160) app_init: Application information:[0m
+[0;32mI (161) app_init: Project name:     ESP32C6_WAMR[0m
+[0;32mI (164) app_init: App version:      0c0d066-dirty[0m
+[0;32mI (169) app_init: Compile time:     Mar 19 2025 02:44:34[0m
+[0;32mI (174) app_init: ELF file SHA256:  6a1a56d0f...[0m
+[0;32mI (178) app_init: ESP-IDF:          v5.4-dirty[0m
+[0;32mI (182) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (186) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (190) efuse_init: Chip rev:         v0.0[0m
+[0;32mI (194) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (200) heap_init: At 4080E910 len 0006DD00 (439 KiB): RAM[0m
+[0;32mI (205) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (210) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (217) spi_flash: detected chip: generic[0m
+[0;32mI (219) spi_flash: flash io: dio[0m
+[0;33mW (222) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (235) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (241) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (247) coexist: coex firmware version: 49a8cdc[0m
+[0;32mI (252) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (256) main_task: Started on CPU0[0m
+[0;32mI (256) main_task: Calling app_main()[0m
+[0;32mI (256) wamr: Starting running Wasm app (from C) on WAMR - fast interpreter...[0m
+Successfully processed 64 pixels.
+Applying brightness offset +50...
+Brightness applied to 64 pixels.
+
+WAMR: cpu cycles - load WAMR:    1281712
+WAMR: cpu cycles - run Wasm app: 630743
+WAMR: cpu cycles - unload WAMR:  43034
+WAMR: cpu cycles - total:        1955489
+[0;32mI (286) wamr: Exiting...[0m
+[0;32mI (286) main_task: Returned from app_main()[0m

@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "ESP32C6_WAMR",
-    "project_version":    "e55f1cf-dirty",
+    "project_version":    "0c0d066-dirty",
     "project_path":       "/home/tdn/safe_sw_eb/esp32c6/esp32c6_wamr_interp_classic_C",
     "idf_path":           "/home/tdn/esp/v5.4/esp-idf",
     "build_dir":          "/home/tdn/safe_sw_eb/esp32c6/esp32c6_wamr_interp_classic_C/build",

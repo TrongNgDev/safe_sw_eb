@@ -1,4 +1,4 @@
-# Install script for directory: /home/tdn/safe-sw-eb/esp32c6_lua/managed_components/georgik__lua
+# Install script for directory: /home/tdn/safe_sw_eb/esp32c6/esp32c6_lua/managed_components/georgik__lua
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -26,9 +26,26 @@
 #include "r_smc_entry.h"
 #include "image_app.h"
 
-int main(void)
-{
-	app_main();
-	return 0;
+#define RV_READ_CSR(reg) ({ unsigned long __tmp; asm volatile ("csrr %0, " #reg : "=r"(__tmp)); __tmp; })
+#define os_printf SEGGER_RTT_printf
+
+
+uint32_t get_cycle(void){
+	return RV_READ_CSR(mcycle);
 }
 
+
+int main(void)
+{
+	uint32_t cpu_cycle_start, cpu_cycle_end;
+	os_printf(0,"Start testing Renesas R9A02G021 - native..\n");
+
+	cpu_cycle_start = get_cycle();
+	app_main();
+	cpu_cycle_end = get_cycle();
+
+	os_printf(0,"Finish testing.\n");
+	os_printf(0,"R9A02G021: Total CPU cycles = %d\n", cpu_cycle_end - cpu_cycle_start);
+
+	return 0;
+}

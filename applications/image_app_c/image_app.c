@@ -73,33 +73,33 @@ int apply_brightness(uint8_t* grayscale, size_t length, int16_t brightness_offse
 
 int main(int argc, char **argv)
 {
-    // 4. Replace the dummy hex data below with the full hex string
-    //    for your 256-pixel (or fewer) test image, ensuring bytes <= 256.
     static const char test_image_hex[] =
-        "47704C47704C47704C000000FFFFFF04040347704C47704C"
-        "47704C95BF2BA9CB431467AB145194EFEFEF47704C47704C"
-        "47704C9AC32DFFFFFF135EA4145194123C73A0BBCD47704C"
-        "000000FFFFFF49AEDA8DD3F05E7C94265B94FFFFFF040503"
+        "47704C47704C47704C0000FFFFFE04040347704C47704C"
+        "47704C95BF2BA9CB31467AB145194EFEFEF47704C47704C"
+        "47704C9AC32DFFFFFF135EA41451941237A0BBCD47704C"
+        "000000FFFFFF49AEADB3D5E7C94265B94FFFFFF040503"
         "000000FFFFFFFEE404E3D236363531979255485F13000000"
-        "47704CFFFFFFFEF02FF6F6F6E6EBF6E6EBF65F861C47704C"
+        "47704CFFFFFFFEF02FF6F6F6F6E6EBF6E6EBF65F861C47704C"
         "47704C47704CE1E1E1F4F4F4F6F6F678A023FEFEFE47704C"
         "47704C47704C89B13B00000000000047704C47704CFFFFFF";
 
     uint32_t width = 8;
     uint32_t height = 8;
 
-    // Allocate a buffer to hold the grayscale output
+    // Buffer for the output grayscale (64 pixels for an 8×8 image)
     static uint8_t gray_output[64];
-    
-    puts("Start processing test_image_hex...");
 
     int ret = process_rgb_to_gray(test_image_hex, width, height, gray_output);
     if (ret < 0) {
-        puts("process_rgb_to_gray failed");
+        printf("process_rgb_to_gray failed with code %d\n", ret);
         return -1;
     }
+    printf("Successfully processed %d pixels.\n", ret);
 
-    puts("process_rgb_to_gray success!");
-    
+    // Apply a brightness offset： +50
+    printf("Applying brightness offset +50...\n");
+    int ret_bright = apply_brightness(gray_output, (size_t)ret, 50);
+    printf("Brightness applied to %d pixels.\n\n", ret_bright);
+
     return 0;
 }

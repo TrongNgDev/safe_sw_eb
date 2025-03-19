@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/tdn/safe-sw-eb/esp32c6_lua/build/CMakeFiles/bootloader"
+			"file" : "/home/tdn/safe_sw_eb/esp32c6/esp32c6_lua/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "/home/tdn/safe-sw-eb/esp32c6_lua/build/CMakeFiles/bootloader.rule"
+			"file" : "/home/tdn/safe_sw_eb/esp32c6/esp32c6_lua/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "/home/tdn/safe-sw-eb/esp32c6_lua/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "/home/tdn/safe_sw_eb/esp32c6/esp32c6_lua/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "/home/tdn/safe-sw-eb/esp32c6_lua/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "/home/tdn/safe_sw_eb/esp32c6/esp32c6_lua/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "/home/tdn/safe-sw-eb/esp32c6_lua/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "/home/tdn/safe_sw_eb/esp32c6/esp32c6_lua/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "/home/tdn/safe-sw-eb/esp32c6_lua/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "/home/tdn/safe_sw_eb/esp32c6/esp32c6_lua/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "/home/tdn/safe-sw-eb/esp32c6_lua/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "/home/tdn/safe_sw_eb/esp32c6/esp32c6_lua/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "/home/tdn/safe-sw-eb/esp32c6_lua/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "/home/tdn/safe_sw_eb/esp32c6/esp32c6_lua/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "/home/tdn/safe-sw-eb/esp32c6_lua/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "/home/tdn/safe_sw_eb/esp32c6/esp32c6_lua/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "/home/tdn/safe-sw-eb/esp32c6_lua/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "/home/tdn/safe_sw_eb/esp32c6/esp32c6_lua/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 

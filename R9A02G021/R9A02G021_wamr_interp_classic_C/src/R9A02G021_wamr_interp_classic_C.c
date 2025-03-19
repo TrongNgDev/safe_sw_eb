@@ -39,30 +39,26 @@
 //#include "../../wasm_applications/helloworld-rust/helloworld_wasm_rusct.h"
 
 
-#include "../../applications/image_app_c/image_app_wasm.h"
+#include "../../../applications/image_app_c/image_app_wasm.h"
 
-int main(void);
 
-const char *pixel = "FF0000";
+#define RV_READ_CSR(reg) ({ unsigned long __tmp; asm volatile ("csrr %0, " #reg : "=r"(__tmp)); __tmp; })
+
+uint32_t get_cycle(void){
+	return RV_READ_CSR(mcycle);
+}
 
 
 static void *
 app_instance_main(wasm_module_inst_t module_inst)
 {
     const char *exception;
-    //char *wasm_argv[2];
-    //wasm_argv[0] = (char *)"wasm_app";
-    //wasm_argv[1] = (char *)pixel;
-
-    os_printf("----------------------------------------------\n");
-    //os_printf("WARM: call Wasm app, pixel: %s\n", pixel);
-    //wasm_application_execute_main(module_inst, 2, wasm_argv);
     wasm_application_execute_main(module_inst, 0, NULL);
     if ((exception = wasm_runtime_get_exception(module_inst)))
         os_printf("%s\n", exception);
-    os_printf("----------------------------------------------\n");
     return NULL;
 }
+
 
 void
 iwasm_main()
@@ -106,8 +102,8 @@ iwasm_main()
 
     os_printf("WAMR: Instantiate WASM runtime\n");
     if (!(wasm_module_inst = wasm_runtime_instantiate(wasm_module,
-            		  	  	  	  	  	  1024, 	// stack size
-										  512,  // heap size
+            		  	  	  	  	  	  384,  // stack size
+										  384,  // heap size
 										  error_buf, sizeof(error_buf)))) {
         os_printf("WAMR: Error while instantiating: %s\n", error_buf);
         goto fail2interp;
@@ -139,7 +135,12 @@ fail1interp:
 
 int main(void)
 {
-	os_printf("Starting Wasm-micro-runtime\n");
+	uint32_t cpu_cycle_start, cpu_cycle_end;
+	os_printf(0,"Start testing Renesas R9A02G021 - WAMR interpreter classic - Wasm compiled from C..\n");
+	cpu_cycle_start = get_cycle();
 	iwasm_main();
+	cpu_cycle_end = get_cycle();
+	os_printf(0,"Finish testing.\n");
+	os_printf(0,"R9A02G021: Total CPU cycles = %d\n", cpu_cycle_end - cpu_cycle_start);
     return 0;
 }

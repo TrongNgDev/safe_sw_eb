@@ -24,7 +24,7 @@ if (NOT CMAKE_BUILD_EARLY_EXPANSION)
   endif ()
 
   #if (CONFIG_WAMR_ENABLE_INTERP)
-    set (WAMR_BUILD_INTERP 1)
+  #  set (WAMR_BUILD_INTERP 1)
   #endif ()
 
   #if (CONFIG_WAMR_INTERP_FAST)
@@ -32,7 +32,7 @@ if (NOT CMAKE_BUILD_EARLY_EXPANSION)
   #endif ()
 
   #if (CONFIG_WAMR_ENABLE_AOT)
-  #  set (WAMR_BUILD_AOT 1)
+    set (WAMR_BUILD_AOT 1)
   #endif ()
 
   #if (CONFIG_WAMR_ENABLE_LIBC_BUILTIN)
@@ -98,9 +98,9 @@ elseif (CONFIG_IDF_TARGET_ARCH_XTENSA)
 endif ()
 
 #if (CONFIG_WAMR_ENABLE_AOT)
-#  target_compile_definitions(${COMPONENT_LIB} PUBLIC -DWASM_ENABLE_AOT=1)
+  target_compile_definitions(${COMPONENT_LIB} PUBLIC -DWASM_ENABLE_AOT=1)
 #endif ()
 
-if (CONFIG_WAMR_ENABLE_INTERP)
-  target_compile_definitions(${COMPONENT_LIB} PUBLIC -DWASM_ENABLE_INTERP=1)
-endif ()
+#if (CONFIG_WAMR_ENABLE_INTERP)
+#  target_compile_definitions(${COMPONENT_LIB} PUBLIC -DWASM_ENABLE_INTERP=1)
+#endif ()

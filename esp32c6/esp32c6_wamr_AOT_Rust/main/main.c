@@ -14,7 +14,7 @@
 #include "bh_platform.h"
 
 // Wasm application
-#include "../../applications/image_app_rust/image_app_wasm_aot.h"
+#include "../../../applications/image_app_c/image_app_wasm_aot.h"
 
 #define IWASM_MAIN_STACK_SIZE 5120
 #define CPU_CYCLE_ENABLE 1
@@ -59,8 +59,8 @@ iwasm_main(void *arg)
     init_args.mem_alloc_option.allocator.free_func = (void *)os_free;
     
     // Stack and Heap size (adjusted for each Wasm application)
-    uint32_t default_stack_size = 4*1024;
-    uint32_t host_managed_heap_size = 4*1024;
+    uint32_t default_stack_size = 10*1024;
+        uint32_t host_managed_heap_size = 10*1024;
 
     // Wasm application
     uint8_t *wasm_file_buf = (uint8_t *)wasm_application_file;
@@ -77,14 +77,14 @@ iwasm_main(void *arg)
     }
 
     #if LOG_ENABLE == 1
-        ESP_LOGI(LOG_TAG, "Run WAMR with interpreter");
+        ESP_LOGI(LOG_TAG, "Run WAMR with AoT");
     #endif
 
     // Load Wasm module
     if (!(wasm_module = wasm_runtime_load(wasm_file_buf, wasm_file_buf_size, error_buf, sizeof(error_buf)))) 
     {
         ESP_LOGE(LOG_TAG, "Error in wasm_runtime_load: %s", error_buf);
-        goto fail1interp;
+        goto fail1aot;
     }
 
     // Instantiate Wasm runtime
@@ -95,7 +95,7 @@ iwasm_main(void *arg)
             default_stack_size, host_managed_heap_size, error_buf, sizeof(error_buf))))
     {
         ESP_LOGE(LOG_TAG, "Error while instantiating: %s", error_buf);
-        goto fail2interp;
+        goto fail2aot;
     }
 
     // Run Wasm application
@@ -117,13 +117,13 @@ iwasm_main(void *arg)
     #endif
     wasm_runtime_deinstantiate(wasm_module_inst);
 
-fail2interp:
+fail2aot:
     #if LOG_ENABLE == 1
         ESP_LOGI(LOG_TAG, "Unload WASM module");
     #endif
     wasm_runtime_unload(wasm_module);
 
-fail1interp:
+fail1aot:
     #if LOG_ENABLE == 1
         ESP_LOGI(LOG_TAG, "Destroy WASM runtime");
     #endif
@@ -141,6 +141,9 @@ app_main(void)
     ESP_LOGI(LOG_TAG, "Starting running Wasm app (from C) on WAMR - classic interpreter...");
     pthread_t t;
     int res;
+
+    // Test whether the heap is available in IRAM
+    //heap_caps_print_heap_info(MALLOC_CAP_EXEC);
 
     pthread_attr_t tattr;
     pthread_attr_init(&tattr);
