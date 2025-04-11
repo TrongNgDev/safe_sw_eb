@@ -1,0 +1,5 @@
+iwasm_ci 195560
+iwasm_fi 210512
+iwasm_aot 185632
+iwasm_llvm_jit 51734688
+iwasm_fast_jit 52112960

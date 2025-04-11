@@ -1,0 +1,22 @@
+# General
+/.vscode
+**/build
+
+# applications
+/applications/**/target/
+
+# ESP-IDF
+**/.devcontainer/
+**/managed_components/
+**/dependencies.lock
+**/sdkconfig.old
+
+# Renesas
+**/trash/
+**/HardwareDebug/
+**/JLinkLog.log
+
+# Linux
+/linux/linux_wamr/WAMR/wasm-micro-runtime/*
+/linux/linux_wamr/WAMR/wasm-micro-runtime/build-scripts/*
+/linux/linux_wamr/WAMR/iwasm*

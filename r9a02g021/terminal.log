@@ -1,0 +1,79 @@
+# SEGGER J-Link RTT Viewer V8.14 Terminal Log File
+# Compiled: 16:00:08 on Feb 21 2025
+# Logging started @ 04 Apr 2025 09:20:18
+00> Starting Native...
+00> Renesas_Native: Load   0
+00> Renesas_Native: Run    6041
+00> Renesas_Native: Unload 0
+00> Renesas_Native: Total  6041
+00> Completed!
+00> 
+(Connection lost)
+00> SEGGER J-Link V7.96q - Real time terminal output
+00> SEGGER J-Link (unknown) V1.0, SN=1089081347
+00> Process: e2-server-gdb
+00> Starting WAMR-AOT mode, Wasm app compiled from C..
+00> Renesas_WAMR_AOT_C: Load   119021
+00> Renesas_WAMR_AOT_C: Run    8700
+00> Renesas_WAMR_AOT_C: Unload 4996
+00> Renesas_WAMR_AOT_C: Total  132717
+00> Completed!
+00> 
+(Connection lost)
+00> SEGGER J-Link V7.96q - Real time terminal output
+00> SEGGER J-Link (unknown) V1.0, SN=1089081347
+00> Process: e2-server-gdb
+00> Starting WAMR-AOT mode, Wasm app compiled from Rust..
+00> Renesas_WAMR_AOT_Rust: Load   119074
+00> Renesas_WAMR_AOT_Rust: Run    9900
+00> Renesas_WAMR_AOT_Rust: Unload 5075
+00> Renesas_WAMR_AOT_Rust: Total  134049
+00> Completed!
+00> 
+(Connection lost)
+00> SEGGER J-Link V7.96q - Real time terminal output
+00> SEGGER J-Link (unknown) V1.0, SN=1089081347
+00> Process: e2-server-gdb
+00> Starting WAMR-Classic Interpreter mode, Wasm app compiled from C..
+00> Renesas_WAMR_CI_C: Load   215507
+00> Renesas_WAMR_CI_C: Run    744710
+00> Renesas_WAMR_CI_C: Unload 4924
+00> Renesas_WAMR_CI_C: Total  965141
+00> Completed!
+00> 
+(Connection lost)
+00> SEGGER J-Link V7.96q - Real time terminal output
+00> SEGGER J-Link (unknown) V1.0, SN=1089081347
+00> Process: e2-server-gdb
+00> Starting WAMR-Classic Interpreter mode, Wasm app compiled from Rust..
+00> Renesas_WAMR_CI_Rust: Load   284612
+00> Renesas_WAMR_CI_Rust: Run    842575
+00> Renesas_WAMR_CI_Rust: Unload 5013
+00> Renesas_WAMR_CI_Rust: Total  1132200
+00> Completed!
+00> 
+(Connection lost)
+00> SEGGER J-Link V7.96q - Real time terminal output
+00> SEGGER J-Link (unknown) V1.0, SN=1089081347
+00> Process: e2-server-gdb
+00> Starting WAMR-Fast Interpreter mode, Wasm app compiled from C..
+00> Renesas_WAMR_FI_C: Load   667235
+00> Renesas_WAMR_FI_C: Run    191565
+00> Renesas_WAMR_FI_C: Unload 5480
+00> Renesas_WAMR_FI_C: Total  864280
+00> Completed!
+00> 
+(Connection lost)
+00> SEGGER J-Link V7.96q - Real time terminal output
+00> SEGGER J-Link (unknown) V1.0, SN=1089081347
+00> Process: e2-server-gdb
+00> Starting WAMR-Fast Interpreter mode, Wasm app compiled from Rust..
+00> Renesas_WAMR_FI_Rust: Load   951476
+00> Renesas_WAMR_FI_Rust: Run    241375
+00> Renesas_WAMR_FI_Rust: Unload 5456
+00> Renesas_WAMR_FI_Rust: Total  1198307
+00> Completed!
+00> 
+(Connection lost)
+
+# Logging stopped @ 04 Apr 2025 09:24:19

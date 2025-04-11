@@ -1,0 +1,9 @@
+[submodule "esp32c6/wasm-micro-runtime"]
+	path = esp32c6/wasm-micro-runtime
+	url = https://github.com/bytecodealliance/wasm-micro-runtime.git
+[submodule "linux/linux_wamr/WAMR/wasm-micro-runtime"]
+	path = linux/linux_wamr/WAMR/wasm-micro-runtime
+	url = https://github.com/bytecodealliance/wasm-micro-runtime.git
+[submodule "linux/linux_lua/lua-5.4.7"]
+	path = linux/linux_lua/lua-5.4.7
+	url = https://github.com/lua/lua

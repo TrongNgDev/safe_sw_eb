@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<riscVLlvmProjectGenerationModel>
+    <fEndian>LITTLE</fEndian>
+    <arch>RV32I</arch>
+    <mulDiv>true</mulDiv>
+    <atomic>true</atomic>
+    <sfp>false</sfp>
+    <dfp>false</dfp>
+    <newlib>false</newlib>
+    <pbuild>false</pbuild>
+    <abi>ILP32</abi>
+</riscVLlvmProjectGenerationModel>

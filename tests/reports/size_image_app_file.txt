@@ -1,0 +1,8 @@
+c image_app.wasm 1136
+c image_app_wasm.h 7064
+c image_app_riscv32_ilp32.aot 1748
+c image_app_riscv32_ilp32_aot.h 10838
+rust image_app.wasm 1952
+rust image_app_wasm.h 12096
+rust image_app_riscv32_ilp32.aot 3352
+rust image_app_riscv32_ilp32_aot.h 20730

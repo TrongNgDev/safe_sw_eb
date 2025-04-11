@@ -1,0 +1,18 @@
+Mode,WAMR Size,Wasm Application Size,Total Size
+r9a02g021_wamr_AOT_C,35366,1872,106596
+r9a02g021_wamr_AOT_Rust,35370,2344,107092
+r9a02g021_wamr_interp_classic_C,46790,1197,115828
+r9a02g021_wamr_interp_classic_Rust,46790,1674,116324
+r9a02g021_wamr_interp_fast_C,53940,1197,122004
+r9a02g021_wamr_interp_fast_Rust,53940,1674,122492
+Mode,Lua runtime Size,Lua Application Size,Total Size
+r9a02g021_lua,87774,3591,208712
+Mode,WAMR Size,Wasm Application Size,Total Size
+esp32c6_wamr_AOT_C,61996,1872,230032
+esp32c6_wamr_AOT_Rust,62008,2344,230544
+esp32c6_wamr_interp_classic_C,82870,1197,249008
+esp32c6_wamr_interp_classic_Rust,82870,1674,249520
+esp32c6_wamr_interp_fast_C,93540,1197,262432
+esp32c6_wamr_interp_fast_Rust,93548,1674,262976
+Mode,Lua runtime Size,Lua Application Size,Total Size
+esp32c6_lua,129670,3591,371280
